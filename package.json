@@ -15,6 +15,9 @@
     "sass": "^1.43.4",
     "web-vitals": "^1.0.1"
   },
+  "resolutions": {
+    "postcss-custom-properties": "^9.1.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -37,9 +40,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "resolutions": {
-      "postcss-custom-properties": "^9.1.1"
-    }
+    ] 
   }
+  
 }
