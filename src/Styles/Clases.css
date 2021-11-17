@@ -1,0 +1,42 @@
+
+.transp1 {
+    opacity: 0.05;
+}
+
+.transp2 {
+    opacity: 0.45;
+}
+
+.VerdeSalud {
+    background-color: #64922f;
+}
+
+.VerdeSaludClaro {
+    background-color: #9ecc3b;
+    border-color: #9ecc3b;
+    box-shadow: -4px -3px 3px black;
+    color: #222;
+    
+}
+
+.button:hover {
+    background-color: #64922f;
+}
+
+
+.form{
+    margin-top: 1em;
+}
+
+input:focus {
+    outline:10px #64922f;
+    border-color:  #64922f;
+    
+  }
+input:hover{
+    background-color: #64922f ;
+}
+
+.colorB{
+    color: black;
+}
