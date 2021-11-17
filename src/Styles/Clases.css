@@ -40,3 +40,11 @@ input:hover{
 .colorB{
     color: black;
 }
+
+.form-container {
+    height: 50px;
+}
+
+.icono{
+    margin-top: 0.5em;
+}

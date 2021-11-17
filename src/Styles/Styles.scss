@@ -2,3 +2,11 @@
 
 @import "~ed-grid";
 @import "~edteam-style-guides/edteam-style-guides";
+
+.small {
+    @include hideFrom(m)
+  }
+  
+.medio {
+    @include showFrom(m)
+}

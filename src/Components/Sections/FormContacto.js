@@ -1,35 +1,35 @@
 
 const FormContact = () => (
-    <div classNameName="">
-        <form classNameName="">
-            <div classNameName="ed-item full form-item">
+    <div className="form">
+        <form className="ed-container m-40 lg-to-center l-block ">
+            <div className="ed-item full form-item">
                 <label>Nombre</label>
                 <input 
                 type="text" 
                 required
-                classNameName="VerdeSaludClaro"/>
+                className="VerdeSaludClaro"/>
               </div>
-              <div classNameName="ed-item full form-item ">
+              <div className="ed-item full form-item ">
                 <label>Institución</label>
                 <input 
                 type="text" 
-                classNameName="VerdeSaludClaro"/>
+                className="VerdeSaludClaro"/>
               </div>
-              <div classNameName="ed-item full form-item">
+              <div className="ed-item full form-item">
                 <label>E-mail</label>
                 <input 
                 type="email" 
-                classNameName="VerdeSaludClaro" 
+                className="VerdeSaludClaro" 
                 placeholder="Nombre@correo.com..."/>
               </div>
-              <div classNameName="ed-item full form__item">
+              <div className="ed-item full form__item">
                 <label>Telefono</label>
                 <input 
                 type="tel" 
                 placeholder="0343..."
-                classNameName="VerdeSaludClaro"/>
+                className="VerdeSaludClaro"/>
               </div>
-              <div classNameName="ed-item form__item ">
+              <div className="ed-item form__item ">
                 <textarea placeholder="Escriba su mensaje"></textarea>
               </div>
               <div className="ed-item form__item">
