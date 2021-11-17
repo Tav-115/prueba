@@ -1,14 +1,12 @@
-const CardsHome = () => (
+const CardsRecursos = () => (
 <div className="ed-grid lg-grid-4 s-grid-1 gap-2 l-block m-grid-2 row-gap">
             <div className="card">
               <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
-                  <img src="https://cdn.pixabay.com/photo/2019/01/22/10/58/pixel-cells-3947916_960_720.png"/></div>
+                  <img src="./frasco abierto.png"/></div>
               <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">               
                 <div className="s-mb-2 s-main-center card__teachers">                 
                 </div>
-                <div className="s-main-center">
-                  <a className="button VerdeSaludClaro button--tiny" 
-                  href="Recursos">Recursos</a></div>
+                <div className="s-main-center"><a className="button VerdeSaludClaro button--tiny" href="Recursos">Recursos</a></div>
               </div>
             </div>
             <div className="card">
@@ -40,7 +38,5 @@ const CardsHome = () => (
               </div>
             </div>               
 </div>
-          
 )
-
-export default CardsHome
+export default CardsRecursos
