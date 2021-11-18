@@ -8,7 +8,7 @@ const Header = () => (
            src="https://3.bp.blogspot.com/-gVljr1kHFTI/Xt-XxEOtVUI/AAAAAAAAAT8/mUDkQ-9yb0033g3BKkGHm4LRe7eajWvcQCK4BGAYYCw/s150/Logo.png"/>
            </a>
         </div>
-        <div className="s-ratio-4-3 img-container small icono">
+        <div className="s-ratio-16-9 img-container small icono">
           <a href="/"><img 
            src="https://3.bp.blogspot.com/-gVljr1kHFTI/Xt-XxEOtVUI/AAAAAAAAAT8/mUDkQ-9yb0033g3BKkGHm4LRe7eajWvcQCK4BGAYYCw/s150/Logo.png"/>
            </a>

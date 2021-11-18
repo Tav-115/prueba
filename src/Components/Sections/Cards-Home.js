@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 const CardsHome = () => (
 <div className="ed-grid lg-grid-4 s-grid-1 gap-2 l-block m-grid-2 row-gap">
             <div className="card">
@@ -7,8 +8,9 @@ const CardsHome = () => (
                 <div className="s-mb-2 s-main-center card__teachers">                 
                 </div>
                 <div className="s-main-center">
-                  <a className="button VerdeSaludClaro button--tiny" 
-                  href="Recursos">Recursos</a></div>
+                  < NavLink to="/Recursos" exact="true"
+                  className="button VerdeSaludClaro button--tiny"
+                  >Recursos</NavLink></div>
               </div>
             </div>
             <div className="card">

@@ -10,6 +10,7 @@ import {
       Routes,
       Route
     } from "react-router-dom";
+import Recursos from "./Pages/Recursos"
 
 
 
@@ -20,6 +21,7 @@ const App = () => (
                   <Route path='/' element={<Home/>} />
                   <Route path='/ContactUs' element={<ContactUs/>} />
                   <Route path='/AboutUs' element={<AboutUs/>} />
+                  <Route path='/Recursos' element={<Recursos/>}/>
             </Routes>
       </Router>
      )
