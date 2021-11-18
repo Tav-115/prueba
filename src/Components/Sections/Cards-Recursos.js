@@ -40,6 +40,24 @@ const CardsRecursos = () => (
     </footer>
 </article>
 
+<article class="s-shadow-bottom">
+       
+    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+        <img src={`${process.env.PUBLIC_URL}/Assets/images/ActualizLimTec.png`} 
+     alt="Planilla Nomivac"/>
+    </div>
+    
+    <div class="s-bg-white s-pxy-2">
+        <h3>Actualizacion 2021 - Lineamientos Técnicos</h3>
+        <p class="s-mb-0">Octubre 2021.</p>
+    </div>
+    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
+        
+        <a href="https://drive.google.com/file/d/17bVnPnAy4ffgxx8Sh0taeRRiXJsPyu3o/view?usp=sharing" target="_blank"> 
+        <div class="button">Páginas: 48</div>
+        </a>
+    </footer>
+</article>
 </div>
 )
 export default CardsRecursos
