@@ -58,6 +58,25 @@ const CardsRecursos = () => (
         </a>
     </footer>
 </article>
+
+<article class="s-shadow-bottom">
+       
+    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+        <img src={`${process.env.PUBLIC_URL}/Assets/images/DosisExtra2.png`} 
+     alt="Planilla Nomivac"/>
+    </div>
+    
+    <div class="s-bg-white s-pxy-2">
+        <h3>Dosis Adicional Covid</h3>
+        <p class="s-mb-0">Actualizacion Noviembre 2021.</p>
+    </div>
+    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
+        
+        <a href="https://drive.google.com/file/d/1aBYLCUHsjUR85Cdfsa5WayVb4ZZFEV7r/view?usp=sharing" target="_blank"> 
+        <div class="button">Páginas: 14</div>
+        </a>
+    </footer>
+</article>
 </div>
 )
 export default CardsRecursos
