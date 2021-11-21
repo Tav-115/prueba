@@ -1,184 +1,127 @@
 import React, { Component } from 'react';
+import RecursosCard from './Recursos-card';
 
 const CardsRecursos = () => (
-<div className="ed-grid s-grid-2 lg-grid-3 xl-grid-10 form">
-   <article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/ManualVacunador.png`} 
-     alt="ManualVacunador"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Manual Vacunador</h4>
-        <p class="s-mb-0">Dirección General de Redes y Programas de Salud.</p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl">
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/1EgB1dE35siNobPGETCc3GNv9jvdvfMi_/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 134</div>
-        </a>
-    </footer>
-</article>
+<div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10 form">
+   <RecursosCard nombre="Manual del Vacunador" 
+   subt="Dirección General de Redes y Programas de Salud."
+   image="ManualVacunador.png" 
+   pages="134"
+   link="https://drive.google.com/file/d/1EgB1dE35siNobPGETCc3GNv9jvdvfMi_/view?usp=sharing"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/PanillaNomivac.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Planilla Nomivac</h4>
-        <p class="s-mb-0">Sistema Integrado de Información Sanitaria Argentino.</p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl">
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/1gHMhphAGGBZ39koA51BIqYYlOAFPdBWk/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 1</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Planilla Nomivac" 
+   subt="Sistema Integrado de Información Sanitaria Argentino."
+   image="PanillaNomivac.png" 
+   pages="1"
+   link="https://drive.google.com/file/d/1gHMhphAGGBZ39koA51BIqYYlOAFPdBWk/view?usp=sharing"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/ActualizLimTec.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Actualizacion 2021 - Lineamientos Técnicos</h4>
-        <p class="s-mb-0">Octubre 2021.</p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/17bVnPnAy4ffgxx8Sh0taeRRiXJsPyu3o/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 48</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Actualizacion 2021 - Lineamientos Técnicos" 
+   subt="Octubre 2021."
+   image="ActualizLimTec.png" 
+   pages="48"
+   link="https://drive.google.com/file/d/17bVnPnAy4ffgxx8Sh0taeRRiXJsPyu3o/view?usp=sharing"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/DosisExtra2.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Dosis Adicional Covid</h4>
-        <p class="s-mb-0">Actualizacion Noviembre 2021.</p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/1aBYLCUHsjUR85Cdfsa5WayVb4ZZFEV7r/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 14</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Dosis Adicional Covid" 
+   subt="Actualizacion Noviembre 2021."
+   image="DosisExtra2.png" 
+   pages="14"
+   link="https://drive.google.com/file/d/1aBYLCUHsjUR85Cdfsa5WayVb4ZZFEV7r/view?usp=sharing"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class=" s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/FormularioFrio.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Formulario Desvio en Cadena de Frio</h4>
-        <p class="s-mb-0"></p>
-    </div>
-    <footer class=" center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-        
-    <p>Descargar</p>
-        <a href="https://docs.google.com/document/d/1FonhaCJbrqp3qgX27Q6jYng5FBBb63Gn/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true" target="_blank"> 
-        <div class="button">Páginas: 2</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Formulario Desvio en Cadena de Frio" 
+   subt=""
+   image="FormularioFrio.png" 
+   pages="2"
+   link="https://docs.google.com/document/d/1FonhaCJbrqp3qgX27Q6jYng5FBBb63Gn/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/PlanillaPedidos.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Planilla de Pedido de Insumos</h4>
-        <p class="s-mb-0"></p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-        
-    <p>Descargar</p>
-        <a href="https://docs.google.com/document/d/166EjZuHDF8C4QxkUV6upLq6WUPhESpyT/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true" target="_blank"> 
-        <div class="button">Páginas: 3</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Planilla de Pedido de Insumos" 
+   subt=""
+   image="PlanillaPedidos.png" 
+   pages="3"
+   link="https://docs.google.com/document/d/166EjZuHDF8C4QxkUV6upLq6WUPhESpyT/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/InstructivoEsavi.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Instructivo ESAVI</h4>
-        <p class="s-mb-0"></p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-        
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 5</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Instructivo ESAVI" 
+   subt=""
+   image="InstructivoEsavi.png" 
+   pages="5"
+   link="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing"/>
 
-<article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/LeyVacunas.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Ley 27.491</h4>
-        <p class="s-mb-0"></p>
-    </div>
-    <footer class="b0 center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-        
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 4</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="Ley 27.491" 
+   subt=""
+   image="LeyVacunas.png" 
+   pages="2"
+   link="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing"/>
 
+<RecursosCard nombre="Lineamientos Técnicos Neumococo" 
+   subt="2017-2018"
+   image="Neumococo.png" 
+   pages="25"
+   link="https://drive.google.com/file/d/1rUawcsr6vsaDcH67iNsjtuE2EJBEyYNv/view?usp=sharing"/>
 
-    <article class="s-shadow-bottom">
-       
-    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-        <img src={`${process.env.PUBLIC_URL}/Assets/images/Neumococo.png`} 
-     alt="Planilla Nomivac"/>
-    </div>
-    
-    <div class="s-bg-white s-pxy-2">
-        <h4>Lineamientos Técnicos Neumococo</h4>
-        <p class="s-mb-0"></p>
-    </div>
-    <footer class="center s-bg-grey s-pxy-2 s-radius-br s-radius-bl ">
-        
-    <p>Descargar</p>
-        <a href="https://drive.google.com/file/d/1rUawcsr6vsaDcH67iNsjtuE2EJBEyYNv/view?usp=sharing" target="_blank"> 
-        <div class="button">Páginas: 25</div>
-        </a>
-    </footer>
-</article>
+<RecursosCard nombre="MEMO VPH dos Dosis" 
+   subt="2015"
+   image="EsquemaVPH.png" 
+   pages="1"
+   link="https://drive.google.com/file/d/1aROrlNBsbIqLxaXWuFWY-KOypVQS02H_/view?usp=sharing"/>
 
+<RecursosCard nombre="MEMO Vacunación en el Puerperio" 
+   subt="2015"
+   image="MemoPuerperio2015.png" 
+   pages="2"
+   link="https://drive.google.com/file/d/15HQjyU2OYHdkLOKP2-v4OO7AZ6TjybEu/view?usp=sharing"/>
+
+<RecursosCard nombre="MEMO dTpa Embarazadas" 
+   subt="2016"
+   image="MemoEmbTBA.png" 
+   pages="1"
+   link="https://drive.google.com/file/d/1lvIF_aAWtlNqdCjvrA-9L7SshfwF-ccO/view?usp=sharing"/>
+
+<RecursosCard nombre="Memo Hepatitis B Embarazadas" 
+   subt="2015"
+   image="MemoHepBEnb.png" 
+   pages="2"
+   link="https://drive.google.com/file/d/12Hbw-RUNhWAzUD77rZldYENmU6f_cC38/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos VPH" 
+   subt="2017"
+   image="LinVPH2017.png" 
+   pages="34"
+   link="https://drive.google.com/file/d/1WKpU7DmL2dPk15-u1l59t3fTvrh3yCEg/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos Varicela" 
+   subt="2015"
+   image="FundamentosVaricela.png" 
+   pages="45"
+   link="https://drive.google.com/file/d/1KokmtYbjvzVpFVl7gomg__IByDh5zXaQ/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos Rotavirus" 
+   subt="2015"
+   image="FundamentosRotavirus.png" 
+   pages="45"
+   link="https://drive.google.com/file/d/18xAoyEAgpRvoNw5bAI0kfwZIBrqbr7JA/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos Neumo Niños" 
+   subt="2011"
+   image="LinNeumoNi.png" 
+   pages="48"
+   link="https://drive.google.com/file/d/1OVaeLpeil8-5Ktrjd4mex36FTJQ5VKT2/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos Meningo" 
+   subt="2017"
+   image="FunMeningo.png" 
+   pages="33"
+   link="https://drive.google.com/file/d/1HjSkspgD0UaCARLNr14ft6Jb72R2xOUk/view?usp=sharing"/>
+
+<RecursosCard nombre="Vacunación en Huespedes Especiales" 
+   subt="2014"
+   image="VacHuEsp.png" 
+   pages="49"
+   link="https://drive.google.com/file/d/1v6UVpMditvW0hgEdBm01BNx4ETzwpjn_/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos Hep B Universal" 
+   subt="2012"
+   image="HepB.png" 
+   pages="19"
+   link="https://drive.google.com/file/d/1PO_RbUOuL_XZwVIPRDBeq3zNpzRarPj3/view?usp=sharing"/>
 
 </div>
 )

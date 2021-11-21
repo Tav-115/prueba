@@ -50,6 +50,17 @@ input:hover{
 }
 
 .b0{
-    bottom:0;
+    
+    margin-bottom: 0px;
     
 }
+
+.relative{
+    position: relative;
+}
+
+.p-t-1{
+    padding-top: 1px;
+}
+
+ 
