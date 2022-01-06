@@ -3,7 +3,67 @@ import RecursosCard from './Recursos-card';
 
 const CardsRecursos = () => (
 <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10 form">
-   <RecursosCard nombre="Manual del Vacunador" 
+<RecursosCard nombre="Circular - Covid" 
+   subt="Actualización Estrategia Dosis Refuerzo."
+   image="Circ-AcEstr.png" 
+   pages="1"
+   link="https://drive.google.com/file/d/1IMHw3f3L-NIWVh7cAol53giCTRhk0eQb/view?usp=sharing"/>
+
+<RecursosCard nombre="Nota" 
+   subt="VPH."
+   image="Nota-VPH.png" 
+   pages="1"
+   link="https://docs.google.com/document/d/1TpBpCCf-ZTwcrYgzxCt8RuGlMBTnIMMg/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+   
+<RecursosCard nombre="Presentación" 
+   subt="Diapositivas - PowerPoint."
+   image="Camp-2022-Varic.png" 
+   pages="16"
+   link="https://docs.google.com/presentation/d/13meVkVSFTA8sh7ntunKprQE61Nih7Z63/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+
+<RecursosCard nombre="Presentación" 
+   subt="Diapositivas - PowerPoint."
+   image="Reunion-Pai.png" 
+   pages="34"
+   link="https://docs.google.com/presentation/d/1pKqo4N1pcXYaRquSkF3-TZj6w6UY1Pk8/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+
+<RecursosCard nombre="Resolución" 
+   subt="2021-3613-APN-MS Varicela."
+   image="Res-SegVari.png" 
+   pages="3"
+   link="https://drive.google.com/file/d/1p5gT_x1aNWqX9DN8Nv_uJh1aOwrO-KcY/view?usp=sharing"/>
+
+<RecursosCard nombre="" 
+   subt="Segunda dosis Varicela."
+   image="LT-Varic2022.png" 
+   pages="1"
+   link="https://drive.google.com/file/d/15II6c4h0QxyJ7VSD-MRI7KxKh7qV_Za-/view?usp=sharing"/>
+
+<RecursosCard nombre="Lineamientos Técnicos" 
+   subt="Segunda dosis Varicela."
+   image="LT-Varic2021.png" 
+   pages="38"
+   link="https://drive.google.com/file/d/1ua_XHxFMqxZZeRPgiz37V9reA8PjNDDw/view?usp=sharing"/>
+
+<RecursosCard nombre="Memorándum" 
+   subt="Intervalo aplicación dosis refuerzo."
+   image="Memo-IntDosis.png" 
+   pages="2"
+   link="https://drive.google.com/file/d/1blTZOUBojpNku7-aT6-mTy5eCqe2jvqo/view?usp=sharing"/>
+
+<RecursosCard nombre="Plan de contingencia" 
+   subt="Ante corte suministro eléctrico."
+   image="P-Conting.png" 
+   pages="1"
+   link="https://drive.google.com/file/d/18bZYeDhRmjtQ-yGH43bPMBVHm1h4K3n_/view?usp=sharing"/>
+
+<RecursosCard nombre="Guia" 
+   subt="Rabia: Prevención, Vigilancia y Control."
+   image="G-Rabia.png" 
+   pages="86"
+   link="https://drive.google.com/file/d/1_JrdAXG6kUIiYbqs0R_5osmt_BEmKIJp/view?usp=sharing"/>
+
+<RecursosCard nombre="Manual del Vacunador" 
    subt="Dirección General de Redes y Programas de Salud."
    image="ManualVacunador.png" 
    pages="134"
