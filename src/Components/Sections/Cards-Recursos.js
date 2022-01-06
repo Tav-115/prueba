@@ -45,7 +45,7 @@ const CardsRecursos = () => (
    pages="38"
    link="https://drive.google.com/file/d/1ua_XHxFMqxZZeRPgiz37V9reA8PjNDDw/view?usp=sharing"/>
 
-<RecursosCard nombre="Memorándum" 
+<RecursosCard nombre="Memorándum - Covid" 
    subt="Intervalo aplicación dosis refuerzo."
    image="Memo-IntDosis.png" 
    pages="2"
