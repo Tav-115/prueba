@@ -4,7 +4,16 @@
 }
 
 .transp2 {
-    opacity: 0.45;
+    opacity: 0.65;
+}
+
+.small-center {
+    text-align: center;
+    margin: auto; 
+}
+
+li {
+    font-style: italic;
 }
 
 .VerdeSalud {
@@ -16,7 +25,6 @@
     border-color: #9ecc3b;
     box-shadow: -4px -3px 3px black;
     color: #222;
-    
 }
 
 .button:hover {
@@ -31,8 +39,8 @@
 input:focus {
     outline:10px #64922f;
     border-color:  #64922f;
-    
-  }
+}
+
 input:hover{
     background-color: #64922f ;
 }
@@ -50,9 +58,7 @@ input:hover{
 }
 
 .b0{
-    
     margin-bottom: 0px;
-    
 }
 
 .relative{
@@ -63,4 +69,28 @@ input:hover{
     padding-top: 15px;
 }
 
- 
+h2 {
+    padding: 25px;
+    text-align: center;
+}
+
+
+.show {
+    left: 50%;
+    background-color: #64922f;
+    position: absolute;
+    padding-right: 30%;
+    height: 13em;
+    transition:all;
+    animation-delay: 2s;
+}
+
+.showColr {
+    
+    background-color: #64922f;
+    position: absolute;
+    padding-right: 30%;
+    height: 13em;
+    transition:all;
+    animation-delay: 2s;
+}

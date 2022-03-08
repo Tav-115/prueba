@@ -26,7 +26,7 @@
         position : fixed;
         left     : 0;
         bottom   : 0;
-        background : black;
+        background : rgb(15, 15, 15);
       }
   }
 
@@ -36,7 +36,7 @@
   .link {
     color : lightgrey;
     &.active { color : cornflowerblue }
-    @include from(lg) { color : grey }
+    @include from(lg) { color : rgb(8, 8, 8) }
   }
 
    // Estilos para los íconos
@@ -46,5 +46,5 @@
     height : var(--size);
     fill   : currentColor;
   }
-
+  
 }

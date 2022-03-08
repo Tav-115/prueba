@@ -18,6 +18,14 @@
   <body>
 
     <div id="root"></div>
-   
+    
   </body>
+  <script>
+    const BtMenu = document.getElementById("main-menu-toggles");
+    const menu = document.getElementById("main-menus");
+
+    BtMenu.addEventListener("click", () => {
+        menu.classList.toggle("show");
+});
+</script>
 </html>
