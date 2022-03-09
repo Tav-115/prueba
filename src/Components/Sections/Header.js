@@ -46,9 +46,9 @@ const Header = () => (
         <div className="s-x-10 s-cols-1  s-cross-center header-links">
           <nav className="small main-menu showColr" id="main-menus">
             <ul>
-              <li>< NavLink to="/" exact="true" className="link s-column s-cross-center active" >Inicio</NavLink></li>
-              <li>< NavLink to="/ContactUs" exact="true" className="link s-column s-cross-center active"  >Contactanos</NavLink></li>
-              <li>< NavLink to="/AboutUs" exact="true" className="link s-column s-cross-center active">Nosotros</NavLink></li>
+              <li >< NavLink to="/" exact="true" className="link s-column s-cross-center active NavR" >Inicio</NavLink></li>
+              <li className="">< NavLink to="/ContactUs" exact="true" className="link s-column s-cross-center active NavR"  >Contactanos</NavLink></li>
+              <li className="">< NavLink to="/AboutUs" exact="true" className="link s-column s-cross-center active NavR">Nosotros</NavLink></li>
             </ul>
           </nav>
           

@@ -76,21 +76,31 @@ h2 {
 
 
 .show {
-    left: 50%;
+    left: 75%;
     background-color: #64922f;
-    position: absolute;
-    padding-right: 30%;
-    height: 13em;
-    transition:all;
-    animation-delay: 2s;
-}
-
-.showColr {
+    position: absolute; 
+    border-radius: 10px;
     
+  }
+
+.showColr {    
     background-color: #64922f;
     position: absolute;
-    padding-right: 30%;
-    height: 13em;
+    justify-content: left;
+    height: 9em;
     transition:all;
-    animation-delay: 2s;
-}
+  }
+
+.NavR{
+    margin: -4px;
+    position: absolute;
+    border-radius: 10px;
+    text-shadow: #222 30px;
+   
+  }
+.NavR:hover {
+      background-color: #9ecc3b;
+      text-shadow: 1px 1px black;
+      padding: 1px;
+      margin: 1px;
+  }
