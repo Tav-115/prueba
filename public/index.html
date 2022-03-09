@@ -21,17 +21,16 @@
     
   </body>
   <script>
-    const BtMenuNo = document.getElementsByClassName("main-menus");
+    const BtMenu = document.getElementById("main-menu-toggles");
+    const navM = document.getElementById ("navM")
     const menu = document.getElementById("main-menus");
 
-    BtMenuNo.addEventListener("mouseover", () => {
+    navM.addEventListener("click", () => {
         menu.classList.remove("show");
 });
 </script>
   <script>
-    const BtMenu = document.getElementById("main-menu-toggles");
     
-
     BtMenu.addEventListener("click", () => {
         menu.classList.toggle("show");
 });

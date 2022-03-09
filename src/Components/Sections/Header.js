@@ -28,7 +28,7 @@ const Header = () => (
               >Inicio</NavLink></li>
               <li>< NavLink to="/ContactUs" exact="true" className="link s-column s-cross-center active Menu"  
               style={({ isActive }) => ({
-                color: isActive ? '#64922f' : '#000',
+                color: isActive ? '#64922f' : '#545e6f',
                 background: isActive ? '#fff' : '#fff',                
                 })} 
                 >Contactanos</NavLink></li>
@@ -45,10 +45,10 @@ const Header = () => (
         </div>
         <div className="s-x-10 s-cols-1  s-cross-center header-links">
           <nav className="small main-menu showColr" id="main-menus">
-            <ul>
+            <ul id="navM">
               <li >< NavLink to="/" exact="true" className="link s-column s-cross-center active NavR" >Inicio</NavLink></li>
-              <li className="">< NavLink to="/ContactUs" exact="true" className="link s-column s-cross-center active NavR"  >Contactanos</NavLink></li>
-              <li className="">< NavLink to="/AboutUs" exact="true" className="link s-column s-cross-center active NavR">Nosotros</NavLink></li>
+              <li >< NavLink to="/ContactUs" exact="true" className="link s-column s-cross-center active NavR"  >Contactanos</NavLink></li>
+              <li >< NavLink to="/AboutUs" exact="true" className="link s-column s-cross-center active NavR">Nosotros</NavLink></li>
             </ul>
           </nav>
           
