@@ -1,13 +1,13 @@
 
 const FormContact = () => (
     <div className="form">
-        <form className="ed-container m-40 lg-to-center l-block ">
+        <form className="ed-container m-40 lg-to-center l-block" action="Menv">
             <div className="ed-item full form-item">
                 <label>Nombre</label>
                 <input 
                 type="text" 
                 required
-                className="VerdeSaludClaro"/>
+                className="VerdeSaludClaro" autoFocus/>
               </div>
               <div className="ed-item full form-item ">
                 <label>Institución</label>
@@ -19,13 +19,15 @@ const FormContact = () => (
                 <label>E-mail</label>
                 <input 
                 type="email" 
+                required
                 className="VerdeSaludClaro" 
-                placeholder="Nombre@correo.com..."/>
+                placeholder="Nombre@gmail.com..."/>
               </div>
               <div className="ed-item full form__item">
-                <label>Telefono</label>
+                <label>Teléfono</label>
                 <input 
                 type="tel" 
+                required
                 placeholder="0343..."
                 className="VerdeSaludClaro"/>
               </div>
@@ -33,10 +35,12 @@ const FormContact = () => (
                 <textarea placeholder="Escriba su mensaje"></textarea>
               </div>
               <div className="ed-item form__item">
-                <input className="button full small VerdeSaludClaro" 
-                type="submit" value="Enviar"/>
-              </div>
                  
+                <input className="button full VerdeSaludClaro" 
+                type="submit" value="Enviar" onclick="location.href='Menv';"/>
+                
+              </div>
+              
         </form>
     </div>
         

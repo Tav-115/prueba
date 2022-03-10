@@ -15,7 +15,7 @@ function CSP (props) {
         <div className="center s-bt s-bg-grey s-pxy-2 s-radius-br s-radius-bl">
         
         
-            <a href={props.link} target="_blank"> 
+            <a href={props.link} > 
             <div className="button"> Revisar{props.pages}</div>
             </a>
     </div>

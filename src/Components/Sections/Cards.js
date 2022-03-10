@@ -8,7 +8,7 @@
             </div>
             {/* <!--Contenido--> */}
             <div className="s-bg-white s-pxy-2 ">
-                <h3>Funcion</h3>
+                <h3>Función</h3>
                 <p className="s-mb-0">El Programa Ampliado de Inmunizaciones (PAI) asegura y distribuye en forma oportuna la cantidad de biológicos y descartables en todos los servicios de salud de la provincia.
 
     El trabajo está enfocado en emplear también diferentes estrategias de vacunación en las zonas donde no hay fácil accesibilidad a los servicios de salud.

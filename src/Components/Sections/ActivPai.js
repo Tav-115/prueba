@@ -10,21 +10,20 @@ const ActivPai = () => (
 <CSP nombre="2020" 
    subt=""
    image="2020.jpeg" 
-   
-   link=""/>
+   link="Vac"/>
     
 
 <CSP nombre="2021" 
    subt=""
    image="2021.jpg" 
    
-   link=""/>
+   link="Vac"/>
 
 <CSP nombre="2022" 
     subt=""
     image="2022.jpg" 
     
-    link=""/>
+    link="Vac"/>
 
 
 </div>

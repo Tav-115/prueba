@@ -33,7 +33,7 @@ li {
 
 
 .form{
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 input:focus {
@@ -76,31 +76,66 @@ h2 {
 
 
 .show {
-    left: 75%;
+    left: 65%;
+    
     background-color: #64922f;
-    position: absolute; 
+    position: relative; 
     border-radius: 10px;
+    box-shadow: -4px -3px 3px black;
+    opacity: 0.8;
+    
     
   }
 
 .showColr {    
+    
     background-color: #64922f;
     position: absolute;
     justify-content: left;
-    height: 9em;
+    height: auto;
     transition:all;
+    transition-duration: 0.5s;
+    font-size: 0.9em;
+    width: auto;
+    overflow-x: hidden;
+    padding: auto;
   }
 
 .NavR{
-    margin: -4px;
-    position: absolute;
-    border-radius: 10px;
-    text-shadow: #222 30px;
-   
-  }
+    
+    position: relative;
+    border-radius: 10px;    
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+    font-weight: 900;
+    
+
+}
+
 .NavR:hover {
       background-color: #9ecc3b;
       text-shadow: 1px 1px black;
-      padding: 1px;
-      margin: 1px;
+      
+      
   }
+
+.link {
+    
+    height: 30%;
+      width: 100%;
+  }
+
+
+.Vacio{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 90%;
+}
+
+.borderImg{
+    border-radius: 30px;
+
+}

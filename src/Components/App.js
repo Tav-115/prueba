@@ -8,6 +8,8 @@ import Covid from "./Pages/Covid19"
 import Capac from "./Pages/Capac"
 import Recursos from "./Pages/Recursos"
 import Activ from "./Pages/Activ"
+import Vac from "./Pages/Vacio"
+import Menv from "./Pages/Menv"
 
 import {
       BrowserRouter as Router,
@@ -29,6 +31,8 @@ const App = () => (
                   <Route path='/Covid' element={<Covid/>}/>
                   <Route path='/Capac' element={<Capac/>}/>
                   <Route path='/Activ' element={<Activ/>}/>
+                  <Route path='/Vac' element={<Vac/>}/>
+                  <Route path='/Menv' element={<Menv/>}/>
 
             </Routes>
       </Router>

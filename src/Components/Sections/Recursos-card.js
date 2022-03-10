@@ -13,8 +13,6 @@ function RecursosCard (props) {
             <p class="s-mb-0 ">{props.subt}</p>
         </div>
         <div className="center s-bt s-bg-grey s-pxy-2 s-radius-br s-radius-bl">
-        
-        
             <a href={props.link} target="_blank"> 
             <div className="button">Páginas: {props.pages}</div>
             </a>

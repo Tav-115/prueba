@@ -34,7 +34,7 @@
  
    // Colores de links del menú
   .link {
-    color : lightgrey;
+    color : black;
     &.active { color : cornflowerblue }
     @include from(lg) { color : rgb(8, 8, 8) }
   }
