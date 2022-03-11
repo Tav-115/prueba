@@ -2,11 +2,35 @@ import RecursosCard from './Recursos-card';
     
     const Covid = () => (
     <div >
-        <h2>
+        <h2 className='h2Cov'>
             Covid-19
         </h2>
         <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10 form">
-        <RecursosCard nombre="Circular - Covid" 
+        <RecursosCard nombre="Pfizer Pediátrica" 
+   subt="Almacenamiento, manipulación y envío."
+   image="PfizerPedACE.jpg" 
+   pages="16"
+   link="https://drive.google.com/file/d/1GyviLEuhAD2z6MatuKwFBLI1JJLmRS0Q/view?usp=sharing"/>
+
+<RecursosCard nombre="Pizer Pediátrica" 
+   subt="Cominarty (24/2/22)."
+   image="PfizerPed.jpg" 
+   pages="9"
+   link="https://drive.google.com/file/d/1_WIryFCzHJstUi9s4GbNV7a-osyGQbpx/view?usp=sharing"/>
+
+<RecursosCard nombre="Circular - Refuerzo 4ta dosis" 
+   subt="7/3/2022"
+   image="4taDosis.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1-CAOmY0rxdU6PLft4RXa1ERM-xTEwGs1/view?usp=sharing"/>
+
+<RecursosCard nombre="Extensión de Uso -  COMIRNATY" 
+   subt="24/2/2022."
+   image="Ext.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1sVr2wWXIvrhl1XXX5DrmCKZldx_skvkf/view?usp=sharing"/>
+
+   <RecursosCard nombre="Circular - Covid" 
    subt="Actualización Estrategia Dosis Refuerzo."
    image="Circ-AcEstr.png" 
    pages="1"
@@ -55,9 +79,20 @@ import RecursosCard from './Recursos-card';
    image="InstructivoEsavi.png" 
    pages="5"
    link="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing"/>
-
+   </div>                    
+   
+   <div className="ed-grid s-grid-1 lg-grid-2 xl-grid-10">
+      <h2 className='s-cols-2'> Videos</h2>           
+              
+      <div className="card">
+                <div className="center s-radius-tr s-radius-tl">
+                <h3>Almacenamiento, conservación y preparación Pfizer pediátrica</h3>
+                <iframe width="380" height="250" src="https://www.youtube.com/embed/yV6r-Mf1cXI" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+              </div>   
+      </div>
+             
+   </div>
 </div>
-    </div>
     )
     
 export default Covid

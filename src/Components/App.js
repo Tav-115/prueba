@@ -10,6 +10,7 @@ import Recursos from "./Pages/Recursos"
 import Activ from "./Pages/Activ"
 import Vac from "./Pages/Vacio"
 import Menv from "./Pages/Menv"
+import Videos from "./Pages/Videos"
 
 import {
       BrowserRouter as Router,
@@ -33,7 +34,7 @@ const App = () => (
                   <Route path='/Activ' element={<Activ/>}/>
                   <Route path='/Vac' element={<Vac/>}/>
                   <Route path='/Menv' element={<Menv/>}/>
-
+                  <Route path='/Videos' element={<Videos/>}/>
             </Routes>
       </Router>
      )

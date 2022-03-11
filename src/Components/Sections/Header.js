@@ -5,9 +5,9 @@ const Header = () => (
     <header className="main-header">
       <div className="ed-grid s-grid-10 m-grid-6">
         <div className="m-cols-1 img-container medio">
-          <a href="/"><img 
-           src="https://3.bp.blogspot.com/-gVljr1kHFTI/Xt-XxEOtVUI/AAAAAAAAAT8/mUDkQ-9yb0033g3BKkGHm4LRe7eajWvcQCK4BGAYYCw/s150/Logo.png"/>
-           </a>
+          <a href="/"><img src={`${process.env.PUBLIC_URL}/Assets/images/LogoPAI.png`} 
+        />
+        </a>
         </div>
         <div className="s-ratio-16-9 s-cols-2 img-container small icono">
           <a href="/">

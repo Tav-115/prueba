@@ -139,3 +139,18 @@ h2 {
     border-radius: 30px;
 
 }
+
+.button.light-color{
+    margin-top: 5px;
+
+}
+
+.button.light-color:hover {
+    background-color: #666;
+    color: aliceblue;
+    }
+
+.fix{
+    position: sticky;
+    
+}

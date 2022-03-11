@@ -4,7 +4,6 @@ const Vac = () => (
     <>
     <Vacio/>
     </>
-    
-    )
+)
 
 export default Vac
