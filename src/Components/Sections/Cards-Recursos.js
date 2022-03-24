@@ -199,7 +199,7 @@ const CardsRecursos = () => (
 
       <RecursosCard nombre="Dosis Viajeros - Covid" 
    subt="18-03-2022"
-   image="circ-18-03-22.jpg" 
+   image="Circ-18-03-22.jpg" 
    pages="5"
    link="https://drive.google.com/file/d/14vMFuICFdAyw7EkWkfmv4tkxNMoTN_qz/view?usp=sharing"/>
 
@@ -211,7 +211,7 @@ const CardsRecursos = () => (
 
       <RecursosCard nombre="Circular - Refuerzo 4ta dosis" 
    subt="7/3/2022"
-   image="4taDosis.jpg" 
+   image="4tadosis.jpg" 
    pages="1"
    link="https://drive.google.com/file/d/1-CAOmY0rxdU6PLft4RXa1ERM-xTEwGs1/view?usp=sharing"/>
 
