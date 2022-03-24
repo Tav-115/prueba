@@ -3,7 +3,7 @@ import RecursosCard from './Recursos-card';
 
 const CardsRecursos = () => (
    <div>
-   <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-10">
+   <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3">
       <a className="button light-color " href="#Memos">Memos</a>
       <a className="button light-color s-cols-2 m-cols-1"href="#Presentaciones">Presentaciones (PwP)</a>
       <a className="button light-color " href="#Manuales">Manuales</a>
@@ -12,8 +12,8 @@ const CardsRecursos = () => (
       <a className="button light-color " href="#Plantillas">Plantillas</a>
    </div>
    
-      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
-      <h2 className='s-cols-2 m-cols-4'> Lineamientos Técnicos</h2>           
+      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
               
       <RecursosCard nombre="Lineamientos Técnicos" 
    subt="Segunda dosis Varicela."
@@ -74,9 +74,9 @@ const CardsRecursos = () => (
    </div>
 
 
-      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
+      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Memos"></a> 
-      <h2 className='s-cols-2 m-cols-4'>Memos</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'>Memos</h2>           
 
       <RecursosCard nombre="Memorándum - Covid" 
    subt="Intervalo aplicación dosis refuerzo."
@@ -110,30 +110,28 @@ const CardsRecursos = () => (
 
                       
    </div>
-   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Presentaciones"></a>
-      <h2 className='s-cols-2 m-cols-4'> Presentaciones (PowerPoint)</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Presentaciones (PowerPoint)</h2>           
               
       <RecursosCard nombre="Presentación" 
    subt="Diapositivas - PowerPoint."
    image="Camp-2022-Varic.png" 
    pages="16"
    link="https://docs.google.com/presentation/d/13meVkVSFTA8sh7ntunKprQE61Nih7Z63/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
-
-<RecursosCard nombre="Presentación" 
-   subt="Diapositivas - PowerPoint."
-   image="Reunion-Pai.png" 
-   pages="34"
-   link="https://docs.google.com/presentation/d/1pKqo4N1pcXYaRquSkF3-TZj6w6UY1Pk8/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
-
-
-                   
+                  
    </div>
 
-   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Manuales"></a>
-      <h2 className='s-cols-2 m-cols-4'> Manuales y Guias</h2>           
-              
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2>           
+
+      <RecursosCard nombre="Guia Rápida" 
+   subt="Vacunación Gripe 2022"
+   image="gr-AG-2022.jpg" 
+   pages="20"
+   link="https://drive.google.com/file/d/1eQRND35lNkr3_rNMomWyk6LCXIMgHl_a/view?usp=sharing"/>
+        
       <RecursosCard nombre="Plan de contingencia" 
    subt="Ante corte suministro eléctrico."
    image="P-Conting.png" 
@@ -189,10 +187,22 @@ const CardsRecursos = () => (
    </div>
 
 
-      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
+      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Circulares"></a>
-      <h2 className='s-cols-2 m-cols-4'> Circulares</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>           
               
+      <RecursosCard nombre="Pautas" 
+   subt="21-03-2022"
+   image="circ-21-03-22.jpg" 
+   pages="1"
+   link="https://docs.google.com/document/d/1I7zy5DHsHx1XGW-ujhobYUL5VoUPJlic/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+
+      <RecursosCard nombre="Dosis Viajeros - Covid" 
+   subt="18-03-2022"
+   image="circ-18-03-22.jpg" 
+   pages="5"
+   link="https://drive.google.com/file/d/14vMFuICFdAyw7EkWkfmv4tkxNMoTN_qz/view?usp=sharing"/>
+
       <RecursosCard nombre="Circular - Covid" 
    subt="Actualización Estrategia Dosis Refuerzo."
    image="Circ-AcEstr.png" 
@@ -207,9 +217,9 @@ const CardsRecursos = () => (
 
                    
    </div>
-   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Notas"></a>
-      <h2 className='s-cols-2 m-cols-4'> Notas y resoluciones </h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Notas y resoluciones </h2>           
 
       <RecursosCard nombre="Extensión de Uso -  COMIRNATY" 
    subt="24/2/2022."
@@ -233,9 +243,15 @@ const CardsRecursos = () => (
                       
    </div>
 
-   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Plantillas"></a>
-      <h2 className='s-cols-2 m-cols-4'> Plantillas y Formularios </h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Plantillas y Formularios </h2>           
+
+      <RecursosCard nombre="Registro y control de temperatura" 
+   subt=""
+   image="Rct.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1ZMKNCDTETeOwOsJjpUtBYR5bp8yc1MtW/view?usp=sharing"/>
 
       <RecursosCard nombre="Planilla Nomivac" 
    subt="Sistema Integrado de Información Sanitaria Argentino."
