@@ -9,7 +9,7 @@ const CardsRecursos = () => (
       <a className="button light-color " href="#Manuales">Manuales</a>
       <a className="button light-color " href="#Circulares">Circulares</a>
       <a className="button light-color " href="#Notas">Notas/Res.</a>
-      <a className="button light-color " href="#Planillas">Planillas</a>
+      <a className="button light-color " href="#Plantillas">Plantillas</a>
    </div>
    
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10">
