@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 const CardsHome = () => (
-<div  className="ed-grid lg-grid-2">
+<div  className="ed-grid lg-grid-1">
   <div className="ed-grid lg-grid-2 s-grid-1 gap-1 l-block m-grid-2 row-gap">
               <div className="card">
                 <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
@@ -53,7 +53,7 @@ const CardsHome = () => (
               </div> 
                          
               </div>
-      <div className="medio">
+      <div className="medio lg-grid-1">
                 <div className="center s-radius-tr s-radius-tl">
                 <iframe width="430" height="270" src="https://www.youtube.com/embed/iw6QMKwx204?color=white" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
               </div>                     
