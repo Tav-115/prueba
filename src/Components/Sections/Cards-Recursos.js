@@ -191,7 +191,7 @@ const CardsRecursos = () => (
       <a name="Circulares"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>           
               
-      <RecursosCard nombre="Pautas" 
+      <RecursosCard nombre="Pautas Vacinación Antigripal" 
    subt="21-03-2022"
    image="circ-21-03-22.jpg" 
    pages="1"

@@ -5,7 +5,14 @@ import RecursosCard from './Recursos-card';
         <h2 className='h2Cov'>
             Covid-19
         </h2>
-        <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10 form">
+        <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
+
+        <RecursosCard nombre="Dosis Viajeros - Covid" 
+   subt="18-03-2022"
+   image="Circ-18-03-22.jpg" 
+   pages="5"
+   link="https://drive.google.com/file/d/14vMFuICFdAyw7EkWkfmv4tkxNMoTN_qz/view?usp=sharing"/>
+
         <RecursosCard nombre="Pfizer Pediátrica" 
    subt="Almacenamiento, manipulación y envío."
    image="PfizerPedACE.jpg" 
@@ -81,8 +88,8 @@ import RecursosCard from './Recursos-card';
    link="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing"/>
    </div>                    
    
-   <div className="ed-grid s-grid-1 lg-grid-2 xl-grid-10">
-      <h2 className='s-cols-2'> Videos</h2>           
+   <div className="ed-grid s-grid-1 lg-grid-2 xl-grid-2">
+      <h2 className='s-cols-2 xl-cols-2'> Videos</h2>           
               
       <div className="card">
                 <div className="center s-radius-tr s-radius-tl">
