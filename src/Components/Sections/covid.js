@@ -27,7 +27,7 @@ import RecursosCard from './Recursos-card';
 
 <RecursosCard nombre="Circular - Refuerzo 4ta dosis" 
    subt="7/3/2022"
-   image="4taDosis.jpg" 
+   image="4tadosis.jpg" 
    pages="1"
    link="https://drive.google.com/file/d/1-CAOmY0rxdU6PLft4RXa1ERM-xTEwGs1/view?usp=sharing"/>
 
