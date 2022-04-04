@@ -191,6 +191,13 @@ const CardsRecursos = () => (
       <a name="Circulares"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>           
               
+      <RecursosCard nombre="Antigripal" 
+   subt="28-03-2022"
+   image="Circ-28-3-22.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1HW0DcMNfo1eh1nbPi8QWG_4yrmwxEDQX/view?usp=sharing"/>
+
+      
       <RecursosCard nombre="Pautas Vacinación Antigripal" 
    subt="21-03-2022"
    image="circ-21-03-22.jpg" 
@@ -247,6 +254,21 @@ const CardsRecursos = () => (
    <a name="Plantillas"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Plantillas y Formularios </h2>           
 
+      
+      <RecursosCard nombre="Carnet Unificado Vacunación" 
+   subt="Niños y Adolescentes"
+   image="Carnet-Niños.jpg" 
+   pages="2"
+   link="https://drive.google.com/file/d/1CvFIRpMNoxwchTNh1BjvLyzS-mSBr8lw/view?usp=sharing"/>
+
+      
+      <RecursosCard nombre="Carnet Unificado Vacunación" 
+   subt="Adultos"
+   image="Carnet-Adultos.jpg" 
+   pages="2"
+   link="https://drive.google.com/file/d/146eczv0PFJEYu62APWAdnKCw6xsUX9ra/view?usp=sharing"/>
+
+      
       <RecursosCard nombre="Registro y control de temperatura" 
    subt=""
    image="Rct.jpg" 
