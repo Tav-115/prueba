@@ -1,3 +1,4 @@
+import "../Styles/styles.css"
 import "../Styles/Styles.scss"
 import "../Styles/Clases.css"
 import Header from "./Sections/Header"

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import Slider from "./slider"
 const CardsHome = () => (
 <div  className="ed-grid lg-grid-1">
   <div className="ed-grid lg-grid-2 s-grid-1 gap-1 l-block m-grid-2 row-gap">
@@ -13,6 +14,12 @@ const CardsHome = () => (
                     className="button VerdeSaludClaro button--tiny"
                     >Recursos</NavLink></div>
                 </div>
+              </div>
+              <div className="card"> <h2> Novedades</h2>
+                  <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><div className="slider--btn slider--btn--right" id="btn--right">&#62;</div>
+        <div className="slider--btn slider--btn--left" id="btn--left">&#60;</div>
+                  <Slider/>
+                  </div>
               </div>
               <div className="card">
                 <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
