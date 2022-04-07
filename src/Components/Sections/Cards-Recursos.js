@@ -198,7 +198,7 @@ const CardsRecursos = () => (
    link="https://drive.google.com/file/d/1HW0DcMNfo1eh1nbPi8QWG_4yrmwxEDQX/view?usp=sharing"/>
 
       
-      <RecursosCard nombre="Pautas Vacinación Antigripal" 
+      <RecursosCard nombre="Pautas Vacunación Antigripal" 
    subt="21-03-2022"
    image="circ-21-03-22.jpg" 
    pages="1"

@@ -21,7 +21,7 @@ const Slider = () => (
    pages="2"
    link="https://drive.google.com/file/d/146eczv0PFJEYu62APWAdnKCw6xsUX9ra/view?usp=sharing"/>
 </div>
-            <div className="slider--section"><RecursosCard nombre="Pautas Vacinación Antigripal" 
+            <div className="slider--section"><RecursosCard nombre="Pautas Vacunación Antigripal" 
    subt="21-03-2022"
    image="circ-21-03-22.jpg" 
    pages="1"
