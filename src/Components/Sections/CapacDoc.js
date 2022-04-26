@@ -2,11 +2,57 @@
     import RecursosCard from './Recursos-card';
     
     const CapacDoc = () => (
-    <div >
+    <div>
         <h2>
             Capacitacion y Docencia
         </h2>
-    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-10 form">
+    <div>
+    
+    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
+      <h3 className='s-cols-4 xl-cols-4'> Curso Actualizacion 2022</h3>           
+      <RecursosCard nombre="Módulo 1" 
+       subt="Casos y generalidades en vacunas."
+       image="M1.jpg" 
+       pages="79"
+       link="https://docs.google.com/presentation/d/1SQsD9lbAOz4G3VTaZf1lea0pin4PKktO/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+        
+        <RecursosCard nombre="Módulo 2" 
+       subt="presentación."
+       image="M2a.jpg" 
+       pages="43"
+       link="https://docs.google.com/presentation/d/13T1aos-Z-ndu28JtgJj2cDjdjjKTn5h_/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+        <RecursosCard nombre="Módulo 2" 
+       subt="Año de introducción."
+       image="M2b.jpg" 
+       pages="2"
+       link="https://drive.google.com/file/d/1ysfgTYzJ03zpbiQnIyjMxTqx_5m6G9Ph/view?usp=sharing"/>
+      
+
+      <RecursosCard nombre="Módulo 3" 
+       subt="Instructivo NOMIVAC."
+       image="M3a.jpg" 
+       pages="11"
+       link="https://drive.google.com/file/d/1XjZ54b2jyATIDWLkYgFqgPomXoFVOp2S/view?usp=sharing"/>
+      
+      <RecursosCard nombre="Módulo 3" 
+       subt="Reporte NOMIVAC."
+       image="M3b.jpg" 
+       pages="4"
+       link="https://drive.google.com/file/d/1ZYrtO2Nj0uuO3ra9ezjUtbLwSxS0_xzU/view?usp=sharing"/>
+       
+       <RecursosCard nombre="Módulo 3" 
+       subt="Tablas dinámicas DICEI."
+       image="M3c.jpg" 
+       pages="11"
+       link="https://drive.google.com/file/d/1ZEn35R3D7WIRQ3rGdbGl8AOGPiZIbazy/view?usp=sharing"/>
+
+
+      </div>
+      <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
+      <h2 className='s-cols-4 xl-cols-4'> Otros Recursos importantes</h2>
+
+    
+
     <RecursosCard nombre="Manual del Vacunador" 
        subt="Dirección General de Redes y Programas de Salud."
        image="ManualVacunador.png" 
@@ -31,7 +77,7 @@
         image="G-Rabia.png" 
         pages="86"
         link="https://drive.google.com/file/d/1_JrdAXG6kUIiYbqs0R_5osmt_BEmKIJp/view?usp=sharing"/>
-
+    </div>
     </div>
     </div>
     )

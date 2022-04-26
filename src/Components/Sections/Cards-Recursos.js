@@ -190,7 +190,14 @@ const CardsRecursos = () => (
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Circulares"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>           
-              
+
+      <RecursosCard nombre="2do Refuerzo" 
+   subt="18-04-2022"
+   image="C-18-4-22.jpg" 
+   pages="4"
+   link="https://drive.google.com/file/d/1USHagc3iTVsTArEH1Zwuuxi0wi1oAgg1/view?usp=sharing"/>
+
+
       <RecursosCard nombre="Antigripal" 
    subt="28-03-2022"
    image="Circ-28-3-22.jpg" 
