@@ -10,7 +10,7 @@
     <div>
     
     <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
-      <h3 className='s-cols-2 xl-cols-4'> Curso Actualizacion 2022</h3>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Curso Actualizacion 2022</h2>           
       <RecursosCard nombre="Módulo 1" 
        subt="Casos y generalidades en vacunas."
        image="M1.jpg" 
@@ -56,7 +56,7 @@
 
       </div>
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
-      <h2 className='s-cols-2 xl-cols-4'> Otros Recursos importantes</h2>
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Otros Recursos importantes</h2>
 
     
 
