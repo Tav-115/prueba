@@ -4,6 +4,7 @@ import RecursosCard from './Recursos-card';
 const CardsRecursos = () => (
    <div>
    <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3">
+   <a className="button light-color " href="#Lineamientos">Lineamientos</a>
       <a className="button light-color " href="#Memos">Memos</a>
       <a className="button light-color s-cols-2 m-cols-1"href="#Presentaciones">Presentaciones (PwP)</a>
       <a className="button light-color " href="#Manuales">Manuales</a>
@@ -12,9 +13,53 @@ const CardsRecursos = () => (
       <a className="button light-color " href="#Plantillas">Plantillas</a>
    </div>
    
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
+   <a name="Presentaciones"></a>
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
+
+      <RecursosCard nombre="Moderna" 
+   subt="17-05-2022"
+   image="Ext.Mod.jpg" 
+   pages="2"
+   link="https://drive.google.com/file/d/1SZ1T9DvLo-1b8cyWrDf14hJWGAwxhCGU/view?usp=sharing"/>
+        
+      <RecursosCard nombre="Pfizer Adulto" 
+   subt="13-04-2022"
+   image="Est.AstraMay.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1sK46mxXRDuq15y2XRy4wNlxQ562C3pCJ/view?usp=sharing"/>
+        
+        <RecursosCard nombre="Pfizer Pediátrica" 
+   subt="12-04-2022"
+   image="Ext.PfizerPedAb.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1sK46mxXRDuq15y2XRy4wNlxQ562C3pCJ/view?usp=sharing"/>
+
+         <RecursosCard nombre="Sputnik (I y II)" 
+   subt="03-03-2022"
+   image="Ext.Sput.jpg" 
+   pages="3"
+   link="https://drive.google.com/file/d/1ZMeylmFmqpcMwQuH33hO5YO0NRzJWd7-/view?usp=sharing"/>
+
+
+      <RecursosCard nombre="Pfizer Adulto" 
+   subt="24-01-2022"
+   image="Ext.Pfizer.jpg" 
+   pages="1"
+   link="https://drive.google.com/file/d/1agBtLtnwChdjuE9ddOnXXiXkF3_3WPyf/view?usp=sharing"/>
+                  
+   </div>
+
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
+      <a name="Lineamientos"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
-              
+
+      <RecursosCard nombre="Lineamientos Técnicos" 
+   subt="Segundo Refuerzo."
+   image="Lin-seg-ref.jpg" 
+   pages="30"
+   link="https://drive.google.com/file/d/1Jw84c9H-FWBB40skls0eB868Xf3P73xP/view?usp=sharing"/>
+        
       <RecursosCard nombre="Lineamientos Técnicos" 
    subt="Segunda dosis Varicela."
    image="LT-Varic2021.png" 

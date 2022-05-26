@@ -46,6 +46,12 @@
        pages="11"
        link="https://drive.google.com/file/d/1ZEn35R3D7WIRQ3rGdbGl8AOGPiZIbazy/view?usp=sharing"/>
 
+        <RecursosCard nombre="Módulo 4" 
+       subt="Bioseguridad"
+       image="Bioseg.jpg" 
+       pages="45"
+       link="https://docs.google.com/presentation/d/1yLiDJJxUJbS0RaJOXzuFOJN0ptHDflAl/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+
 
       </div>
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
