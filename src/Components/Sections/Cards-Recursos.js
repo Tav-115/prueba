@@ -10,7 +10,7 @@ const CardsRecursos = () => (
       <a className="button light-color " href="#Manuales">Manuales</a>
       <a className="button light-color " href="#Circulares">Circulares</a>
       <a className="button light-color " href="#Notas">Notas/Res.</a>
-      <a className="button light-color " href="#Plantillas">Plantillas</a>
+      <a className="button light-color " href="#Plantillas">Formularios</a>
    </div>
    
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
@@ -55,6 +55,12 @@ const CardsRecursos = () => (
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
 
       <RecursosCard nombre="Lineamientos Técnicos" 
+   subt="Primer Refuerzo 5 a 11 Años."
+   image="Lin-26-5-22.jpg" 
+   pages="28"
+   link="https://drive.google.com/file/d/1r_S0kEiW9ZgidSR_h6rajjJq4HLPv0oL/view?usp=sharing"/>
+           
+           <RecursosCard nombre="Lineamientos Técnicos" 
    subt="Segundo Refuerzo."
    image="Lin-seg-ref.jpg" 
    pages="30"
@@ -304,9 +310,26 @@ const CardsRecursos = () => (
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Plantillas"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Plantillas y Formularios </h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Formularios y Planillas </h2>           
 
+      <RecursosCard nombre="Nomivac" 
+   subt="Alta usuario"
+   image="FormAltUs.jpg" 
+   pages="1"
+   link="https://docs.google.com/spreadsheets/d/1lXOHeOPgkz_8z9X11gC9UTRVyRA-T98f/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
       
+      <RecursosCard nombre="Nomivac" 
+   subt="Modificación usuario"
+   image="FormModifUs.jpg" 
+   pages="1"
+   link="https://docs.google.com/spreadsheets/d/1-Zd_Uz8lc2yfWnJQnkSR4LAHtsjg8UTB/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+      
+      <RecursosCard nombre="Nomivac" 
+   subt="Baja usuario"
+   image="FormBajaUs.jpg" 
+   pages="1"
+   link="https://docs.google.com/spreadsheets/d/1s4QQBE4sVrULnbfICN5yoE0sHJuG3v3x/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+
       <RecursosCard nombre="Carnet Unificado Vacunación" 
    subt="Niños y Adolescentes"
    image="Carnet-Niños.jpg" 
