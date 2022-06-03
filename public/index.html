@@ -21,6 +21,57 @@
     
   </body>
   <script>
+    const sliderMov = document.querySelector("#slider");
+    
+    let sliderSection = document.querySelectorAll (".slider--section");
+    
+    let sliderSectionLast = sliderSection[sliderSection.length-1];
+    
+    const btnLeft = document.querySelector("#btn--left");
+    const btnRight = document.querySelector("#btn--right");
+    
+    sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast) ;
+    
+    
+    function moveDerecha(){
+        let sliderSectionFirst = document.querySelectorAll(".slider--section")[0];
+        sliderMov.style.marginLeft = "-200%";
+        sliderMov.style.transition = "all 1s";
+        setTimeout(function(){
+            sliderMov.style.transition = "none";
+            sliderMov.insertAdjacentElement('beforeend', sliderSectionFirst);
+            sliderMov.style.marginLeft = "-100%";
+        }, 500);
+        
+    }
+    
+    btnRight.addEventListener('click', function() {
+        moveDerecha();
+    }); 
+    
+    function moveIzquierda(){
+        let sliderSection = document.querySelectorAll (".slider--section");
+        let sliderSectionLast = sliderSection[sliderSection.length-1];
+        sliderMov.style.marginLeft = "0";
+        sliderMov.style.transition = "all 1s";
+        setTimeout(function(){
+            sliderMov.style.transition = "none";
+            sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast);
+            sliderMov.style.marginLeft = "-100%";
+        }, 500);
+        
+    }
+    
+    btnLeft.addEventListener('click', function() {
+        moveIzquierda();
+    }); 
+    
+    setInterval(function(){
+        moveDerecha();
+        
+    }, 2500);
+    </script>
+  <script>
     const BtMenu = document.getElementById("main-menu-toggles");
     const navM = document.getElementById ("navM")
     const menu = document.getElementById("main-menus");
@@ -35,57 +86,7 @@
         menu.classList.toggle("show");
 });
 </script>
-<script>
-  const sliderMov = document.querySelector("#slider");
 
-let sliderSection = document.querySelectorAll (".slider--section");
-
-let sliderSectionLast = sliderSection[sliderSection.length-1];
-
-const btnLeft = document.querySelector("#btn--left");
-const btnRight = document.querySelector("#btn--right");
-
-sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast) ;
-
-
-function moveDerecha(){
-    let sliderSectionFirst = document.querySelectorAll(".slider--section")[0];
-    sliderMov.style.marginLeft = "-200%";
-    sliderMov.style.transition = "all 1s";
-    setTimeout(function(){
-        sliderMov.style.transition = "none";
-        sliderMov.insertAdjacentElement('beforeend', sliderSectionFirst);
-        sliderMov.style.marginLeft = "-100%";
-    }, 1000);
-    
-}
-
-btnRight.addEventListener('click', function() {
-    moveDerecha();
-}); 
-
-function moveIzquierda(){
-    let sliderSection = document.querySelectorAll (".slider--section");
-    let sliderSectionLast = sliderSection[sliderSection.length-1];
-    sliderMov.style.marginLeft = "0";
-    sliderMov.style.transition = "all 1s";
-    setTimeout(function(){
-        sliderMov.style.transition = "none";
-        sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast);
-        sliderMov.style.marginLeft = "-100%";
-    }, 1000);
-    
-}
-
-btnLeft.addEventListener('click', function() {
-    moveIzquierda();
-}); 
-
-setInterval(function(){
-    moveDerecha();
-    
-}, 5000);
-</script>
 
 
 </html>

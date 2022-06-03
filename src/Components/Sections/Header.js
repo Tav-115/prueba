@@ -6,7 +6,7 @@ const Header = () => (
       <div className="ed-grid s-grid-10 m-grid-6 lg-grid-6">
         <div className="m-cols-1 img-container medio">
           <a href="/"><img src={`${process.env.PUBLIC_URL}/Assets/images/LogoPAI.png`} 
-        />
+        />Inicio
         </a>
         </div>
         <div className="s-ratio-16-9 s-cols-2 img-container small icono">
@@ -20,12 +20,7 @@ const Header = () => (
         <div className="s-x-6 s-cols-1 s-cross-center s-main-end header-links medio lg-x-6 lg-cols-1">
           <nav className="main-menu" id="main-menu">
             <ul>
-              <li>< NavLink to="/" exact="true" className="link Nav s-column s-cross-center active Menu" 
-              style={({ isActive }) => ({
-              color: isActive ? '#64922f' : '#545e6f',
-              background: isActive ? '#fff' : '#fff',
-              })}
-              >Inicio</NavLink></li>
+              <li><a href="/">Inicio</a></li>
               <li>< NavLink to="/ContactUs" exact="true" className="link Nav  s-column s-cross-center active Menu"  
               style={({ isActive }) => ({
                 color: isActive ? '#64922f' : '#545e6f',
@@ -46,7 +41,7 @@ const Header = () => (
         <div className="s-x-10 s-cols-1  s-cross-center header-links">
           <nav className="small main-menu showColr" id="main-menus">
             <ul className="ulCaja" id="navM">
-              <li className="NavR">< NavLink to="/" exact="true" className="link s-column s-cross-center active " >Inicio</NavLink></li>
+              <li><a href="/" className="link s-column s-cross-center active NavR ">Inicio</a></li>
               <li className="NavR">< NavLink to="/ContactUs" exact="true" className="link s-column s-cross-center active NavR "  >Contactanos</NavLink></li>
               <li className="NavR">< NavLink to="/AboutUs" exact="true" className="link s-column s-cross-center active NavR ">Nosotros</NavLink></li>
             </ul>
