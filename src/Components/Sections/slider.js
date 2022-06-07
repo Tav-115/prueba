@@ -4,11 +4,11 @@ const Slider = () => (
      <div className="container-slider">
         <div className="slider" id="slider">
         <div className="slider--section">
-            <RecursosCard nombre="AstraZeneca" 
-            subt="27-05-2022"
-            image="ExtAstra-27-5-22.jpg" 
-            pages="2"
-            link="https://drive.google.com/file/d/1kafTfZ-EUwwaXf-BVGyUnxZ_oylbQYAD/view?usp=sharing"/>
+            <RecursosCard nombre="Extenciones unificadas" 
+            subt="04-06-2022"
+            image="Extensiones-4-6-22.jpg" 
+            pages="17"
+            link="https://drive.google.com/file/d/1DuqU_iPEXKMxijC0cNAEsEtEOyjGuTzD/view?usp=sharing"/>
             </div>
             <div className="slider--section">
             <RecursosCard nombre="Lineamientos Técnicos" 
@@ -25,11 +25,11 @@ const Slider = () => (
             link="https://docs.google.com/spreadsheets/d/1lXOHeOPgkz_8z9X11gC9UTRVyRA-T98f/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
             </div>
             <div className="slider--section">
-            <RecursosCard nombre="Nomivac" 
-            subt="Modificación usuario"
-            image="FormModifUs.jpg" 
-            pages="1"
-            link="https://docs.google.com/spreadsheets/d/1-Zd_Uz8lc2yfWnJQnkSR4LAHtsjg8UTB/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+            <RecursosCard nombre="AstraZeneca" 
+            subt="27-05-2022"
+            image="ExtAstra-27-5-22.jpg" 
+            pages="2"
+            link="https://drive.google.com/file/d/1kafTfZ-EUwwaXf-BVGyUnxZ_oylbQYAD/view?usp=sharing"/>
             </div>
             
          

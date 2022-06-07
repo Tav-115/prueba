@@ -16,7 +16,13 @@ const CardsRecursos = () => (
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Presentaciones"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
-
+      
+      <RecursosCard nombre="Extenciones unificadas" 
+   subt="04-06-2022"
+   image="Extensiones-4-6-22.jpg" 
+   pages="17"
+   link="https://drive.google.com/file/d/1DuqU_iPEXKMxijC0cNAEsEtEOyjGuTzD/view?usp=sharing"/>
+        
       <RecursosCard nombre="AstraZeneca" 
    subt="27-05-2022"
    image="ExtAstra-27-5-22.jpg" 
