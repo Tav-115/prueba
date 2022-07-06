@@ -4,9 +4,10 @@ function RecursosCard (props) {
     <article className="ed-grid s-shadow-bottom p-b-0">
        
         <div className=" s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-            <img src={`${process.env.PUBLIC_URL}/Assets/images/${props.image}`} 
+            <img src={props.image} 
         alt={props.image}/>
         </div>
+        
         
         <div className="s-ratio-16-9 s-bg-white s-pxy-2  ">
             <h4>{props.nombre}</h4>

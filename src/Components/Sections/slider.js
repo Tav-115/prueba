@@ -6,28 +6,28 @@ const Slider = () => (
             <div className="slider--section">
             <RecursosCard nombre="Extención Sputnik" 
             subt="22-06-2022 (12 meses)"
-            image="Extension-22-6-22.jpg" 
+            image="https://drive.google.com/uc?export=download&id=182pj3VgbxBx6j0eE1_PWhmbQ-iCEqrTs" 
             pages="2"
             link="https://drive.google.com/file/d/1sdircXyioFyF4xCCLBvd3iDo58IblPDo/view?usp=sharing"/>
             </div>
             <div className="slider--section">
             <RecursosCard nombre="Extenciones unificadas" 
             subt="04-06-2022"
-            image="Extensiones-4-6-22.jpg" 
+            image="https://drive.google.com/uc?export=download&id=1jz8gPoSzFE25hUcU2HcjsYPCawMKdrU7" 
             pages="17"
             link="https://drive.google.com/file/d/1DuqU_iPEXKMxijC0cNAEsEtEOyjGuTzD/view?usp=sharing"/>
             </div>
             <div className="slider--section">
             <RecursosCard nombre="Lineamientos Técnicos" 
             subt="Primer Refuerzo 5 a 11 Años."
-            image="Lin-26-5-22.jpg" 
+            image="https://drive.google.com/uc?export=download&id=1v5_MgsO5AgoGzcb7hFQ3s4rAy1enyTyI"
             pages="28"
             link="https://drive.google.com/file/d/1r_S0kEiW9ZgidSR_h6rajjJq4HLPv0oL/view?usp=sharing"/>
             </div>
             <div className="slider--section">
             <RecursosCard nombre="Nomivac" 
             subt="Alta usuario"
-            image="FormAltUs.jpg" 
+            image="https://drive.google.com/uc?export=download&id=1S-LsBIZK9zBnBZNHH0fqX-W2JvQYAxmC"
             pages="1"
             link="https://docs.google.com/spreadsheets/d/1lXOHeOPgkz_8z9X11gC9UTRVyRA-T98f/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
             </div>
