@@ -4,7 +4,7 @@ const Slider = () => (
      <div className="container-slider">
         <div className="slider" id="slider">
             <div className="slider--section">
-            <RecursosCard nombre="Extencion Sputnik" 
+            <RecursosCard nombre="Extención Sputnik" 
             subt="22-06-2022 (12 meses)"
             image="Extension-22-6-22.jpg" 
             pages="2"
