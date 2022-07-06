@@ -17,6 +17,12 @@ const CardsRecursos = () => (
    <a name="Presentaciones"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
       
+      <RecursosCard nombre="Extencion Sputnik" 
+   subt="22-06-2022 (12 meses)"
+   image="Extension-22-6-22.jpg" 
+   pages="2"
+   link="https://drive.google.com/file/d/1sdircXyioFyF4xCCLBvd3iDo58IblPDo/view?usp=sharing"/>
+        
       <RecursosCard nombre="Extenciones unificadas" 
    subt="04-06-2022"
    image="Extensiones-4-6-22.jpg" 

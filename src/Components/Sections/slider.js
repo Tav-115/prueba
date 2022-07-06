@@ -3,7 +3,14 @@ import RecursosCard from "./Recursos-card"
 const Slider = () => (
      <div className="container-slider">
         <div className="slider" id="slider">
-        <div className="slider--section">
+            <div className="slider--section">
+            <RecursosCard nombre="Extencion Sputnik" 
+            subt="22-06-2022 (12 meses)"
+            image="Extension-22-6-22.jpg" 
+            pages="2"
+            link="https://drive.google.com/file/d/1sdircXyioFyF4xCCLBvd3iDo58IblPDo/view?usp=sharing"/>
+            </div>
+            <div className="slider--section">
             <RecursosCard nombre="Extenciones unificadas" 
             subt="04-06-2022"
             image="Extensiones-4-6-22.jpg" 
@@ -24,13 +31,7 @@ const Slider = () => (
             pages="1"
             link="https://docs.google.com/spreadsheets/d/1lXOHeOPgkz_8z9X11gC9UTRVyRA-T98f/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
             </div>
-            <div className="slider--section">
-            <RecursosCard nombre="AstraZeneca" 
-            subt="27-05-2022"
-            image="ExtAstra-27-5-22.jpg" 
-            pages="2"
-            link="https://drive.google.com/file/d/1kafTfZ-EUwwaXf-BVGyUnxZ_oylbQYAD/view?usp=sharing"/>
-            </div>
+            
             
          
             
