@@ -75,9 +75,12 @@
 }
 
 @keyframes palpi {
-    from{ transform: none;}
-    50%{ transform:scale(1.2);}
-    to { transform:none;}
+    0%{ opacity: 0; }
+    50%{ opacity:1;}
+    100%{ opacity:0;}
+    from{ transform: scale(0.8); -webkit-transform: scale(0.8); -moz-transform: scale(0.8); -ms-transform: scale(0.8); -o-transform: scale(0.8); }
+    50%{ transform:none; -webkit-transform:none; -moz-transform:none; -ms-transform:none; -o-transform:none; }
+    to { transform:scale(0.8); -webkit-transform:scale(0.8); -moz-transform:scale(0.8); -ms-transform:scale(0.8); -o-transform:scale(0.8); }
   }
   
   .atento{
