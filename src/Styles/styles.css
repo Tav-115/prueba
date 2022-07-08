@@ -73,3 +73,14 @@
 .slider--btn--left{
     left: 10%;
 }
+
+@keyframes palpi {
+    from{ transform: none;}
+    50%{ transform:scale(1.2);}
+    to { transform:none;}
+  }
+  
+  .atento{
+    animation: palpi 2s infinite;
+    -webkit-animation: palpi 2s infinite;
+}

@@ -4,6 +4,7 @@ import RecursosCard from './Recursos-card';
 const CardsRecursos = () => (
    <div>
    <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3">
+   
    <a className="button light-color " href="#Lineamientos">Lineamientos</a>
       <a className="button light-color " href="#Memos">Memos</a>
       <a className="button light-color s-cols-2 m-cols-1"href="#Presentaciones">Presentaciones (PwP)</a>
@@ -195,6 +196,12 @@ const CardsRecursos = () => (
    <a name="Manuales"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2>           
 
+      <RecursosCard nombre="Adrenalina para Anafilaxia" 
+   subt="Modo de empleo."
+   image="https://drive.google.com/uc?export=download&id=1f7j8iOtkFnsmCNg2_c4j5Pn-REdAzOGk" 
+   pages="3"
+   link="https://drive.google.com/file/d/193L2ogmj6F2bKaizQpZY5xs0yFvMXAws/view?usp=sharing"/>
+            
       <RecursosCard nombre="Guia Rápida" 
    subt="Vacunación Gripe 2022"
    image="https://drive.google.com/uc?export=download&id=1HTXC9JrSEkTadmhHU2tPMe0tq-_fGG6M" 
@@ -395,6 +402,7 @@ const CardsRecursos = () => (
                       
    </div>
    
+
 </div>
 )
 

@@ -15,7 +15,7 @@ const CardsHome = () => (
                     >Recursos</NavLink></div>
                 </div>
               </div>
-              <div className="card"> <h2> Novedades</h2>
+              <div className="card"> <div className="atento"><h2> Novedades</h2></div>
                   <div className="img-container"><div className="slider--btn slider--btn--right" id="btn--right">&#62;</div>
         <div className="slider--btn slider--btn--left" id="btn--left">&#60;</div>
                   <Slider/>
