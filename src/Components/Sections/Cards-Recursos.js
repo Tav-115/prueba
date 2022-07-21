@@ -73,6 +73,12 @@ const CardsRecursos = () => (
       <a name="Lineamientos"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
 
+      <RecursosCard nombre="(LT) Moderna 6 Meses a 3 años" 
+   subt="Refuerzo 3 a 5 años"
+   image="https://drive.google.com/uc?export=download&id=1hYsRC-6eha7AC94QrL8q73_HMNo_jfsW"
+   pages="32"
+   link="https://docs.google.com/document/d/1wXNyQkKTymhq-KPlQaGBosORbswr0405/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
+           
       <RecursosCard nombre="Lineamientos Técnicos" 
    subt="Primer Refuerzo 5 a 11 Años."
    image="https://drive.google.com/uc?export=download&id=1v5_MgsO5AgoGzcb7hFQ3s4rAy1enyTyI"
