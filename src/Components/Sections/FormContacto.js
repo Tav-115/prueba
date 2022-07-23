@@ -36,13 +36,16 @@ const FormContact = () => (
                 className="VerdeSaludClaro"/>
               </div>
               <div className="ed-item form__item ">
-                <textarea placeholder="Escriba su mensaje"
+                <textarea 
+                placeholder="Escriba su mensaje"
                 name="Mensaje"></textarea>
               </div>
               <div className="ed-item form__item">
                  
                 <input className="button full VerdeSaludClaro" 
-                type="submit" value="Enviar" onclick="location.href='Menv';"/>
+                type="submit" 
+                value="Enviar" 
+                onclick="location.href='Menv';"/>
                 
               </div>
               

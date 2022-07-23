@@ -200,7 +200,20 @@ const CardsRecursos = () => (
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Manuales"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
+
+      <RecursosCard nombre="Manual Vacunador Moderna" 
+   subt="6 meses a 3 años."
+   image="https://drive.google.com/uc?export=download&id=1W318d7MiDcjiSGUUdxKirJrgEwqAnqKv" 
+   pages="38"
+   link="https://drive.google.com/file/d/1D9ZycOxIfCDShjQ0KedGsFX0EsAM3yu8/view?usp=sharing"/> 
+   
+   <RecursosCard nombre="Vacunación" 
+   subt=" COVID - 19 en NNyA."
+   image="https://drive.google.com/uc?export=download&id=1ieStMxXQjklJM8-k4fMF5B6y4ppUlET6" 
+   pages="3"
+   link="https://drive.google.com/file/d/1jLThGu2ypDjChdshpSkWdzzmZLQj1eVz/view?usp=sharing"/> 
+ 
 
       <RecursosCard nombre="Adrenalina para Anafilaxia" 
    subt="Modo de empleo."
@@ -315,7 +328,14 @@ const CardsRecursos = () => (
    </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Notas"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Notas y resoluciones </h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Notas y resoluciones </h2>  
+
+      <RecursosCard nombre="Anmat- Antigripal" 
+   subt="Mayores de 65 años."
+   image="https://drive.google.com/uc?export=download&id=1oDO3Wqm8umKBMEmhR6s2V_4L7AtjcRrt" 
+   pages="3"
+   link="https://drive.google.com/file/d/1d4m4U8HPMC9o78k-blSs1keLb8mNrTTA/view?usp=sharing"/> 
+            
 
       <RecursosCard nombre="Extensión de Uso -  COMIRNATY" 
    subt="24/2/2022."
