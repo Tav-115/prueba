@@ -3,9 +3,23 @@ import RecursosCard from "./Recursos-card"
 const Slider = () => (
      <div className="container-slider">
         <div className="slider" id="slider">
+        <div className="slider--section">
+                <RecursosCard nombre="Extensiones Vacunas Covid" 
+                subt="Al 26-7-22"
+                image="https://drive.google.com/uc?export=download&id=1vMMo4CT3wQa725n1bY5PHPZ_809JoI22" 
+                pages="5"
+                link="https://drive.google.com/file/d/1X2KNAq_PTS9U890zXXZ5nfpLOs7KuhN8/view?usp=sharing"/> 
+            </div>
+            <div className="slider--section">         
+                <RecursosCard nombre="Sociedad Arg. de Pediatría." 
+                subt="Vac 6 m a 3 años."
+                image="https://drive.google.com/uc?export=download&id=1QoiIA4ttQPCCKoVoU2D6DxqFHwlDixJ0"
+                pages="8"
+                link="https://drive.google.com/file/d/1tq7Shp9oeJGQtAk9h_H_D4AwcvXD27jy/view?usp=sharing"/>
+            </div> 
             <div className="slider--section">
-                <RecursosCard nombre="Manual Vacunador Moderna" 
-                subt="6 meses a 3 años."
+                <RecursosCard nombre="Manual Vac. Moderna" 
+                subt="6 m a 3 años."
                 image="https://drive.google.com/uc?export=download&id=1W318d7MiDcjiSGUUdxKirJrgEwqAnqKv" 
                 pages="38"
                 link="https://drive.google.com/file/d/1D9ZycOxIfCDShjQ0KedGsFX0EsAM3yu8/view?usp=sharing"/> 
@@ -17,20 +31,7 @@ const Slider = () => (
                 pages="3"
                 link="https://drive.google.com/file/d/1d4m4U8HPMC9o78k-blSs1keLb8mNrTTA/view?usp=sharing"/> 
             </div>
-            <div className="slider--section">
-                <RecursosCard nombre="Vacunación" 
-                subt=" COVID - 19 en NNyA."
-                image="https://drive.google.com/uc?export=download&id=1ieStMxXQjklJM8-k4fMF5B6y4ppUlET6" 
-                pages="3"
-                link="https://drive.google.com/file/d/1jLThGu2ypDjChdshpSkWdzzmZLQj1eVz/view?usp=sharing"/> 
-            </div>
-            <div className="slider--section">         
-                <RecursosCard nombre="(LT) Moderna 6 Meses a 3 años" 
-                subt="Refuerzo 3 a 5 años"
-                image="https://drive.google.com/uc?export=download&id=1hYsRC-6eha7AC94QrL8q73_HMNo_jfsW"
-                pages="32"
-                link="https://docs.google.com/document/d/1wXNyQkKTymhq-KPlQaGBosORbswr0405/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
-            </div> 
+            
          
             
 </div>

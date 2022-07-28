@@ -18,6 +18,12 @@ const CardsRecursos = () => (
    <a name="Presentaciones"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
       
+      <RecursosCard nombre="Extensiones Vacunas Covid" 
+   subt="Al 26-7-22"
+   image="https://drive.google.com/uc?export=download&id=1vMMo4CT3wQa725n1bY5PHPZ_809JoI22" 
+   pages="5"
+   link="https://drive.google.com/file/d/1X2KNAq_PTS9U890zXXZ5nfpLOs7KuhN8/view?usp=sharing"/> 
+            
       <RecursosCard nombre="Extencion Sputnik" 
    subt="22-06-2022 (12 meses)"
    image="https://drive.google.com/uc?export=download&id=182pj3VgbxBx6j0eE1_PWhmbQ-iCEqrTs"
@@ -184,7 +190,6 @@ const CardsRecursos = () => (
    pages="2"
    link="https://drive.google.com/file/d/12Hbw-RUNhWAzUD77rZldYENmU6f_cC38/view?usp=sharing"/>
 
-                      
    </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Presentaciones"></a>
@@ -202,8 +207,15 @@ const CardsRecursos = () => (
    <a name="Manuales"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
 
-      <RecursosCard nombre="Manual Vacunador Moderna" 
-   subt="6 meses a 3 años."
+      <RecursosCard nombre="Sociedad Arg. de Pediatría." 
+   subt="Vac 6 m a 3 años."
+   image="https://drive.google.com/uc?export=download&id=1QoiIA4ttQPCCKoVoU2D6DxqFHwlDixJ0"
+   pages="8"
+   link="https://drive.google.com/file/d/1tq7Shp9oeJGQtAk9h_H_D4AwcvXD27jy/view?usp=sharing"/>
+            
+
+      <RecursosCard nombre="Manual Vac. Moderna" 
+   subt="6 m a 3 años."
    image="https://drive.google.com/uc?export=download&id=1W318d7MiDcjiSGUUdxKirJrgEwqAnqKv" 
    pages="38"
    link="https://drive.google.com/file/d/1D9ZycOxIfCDShjQ0KedGsFX0EsAM3yu8/view?usp=sharing"/> 
