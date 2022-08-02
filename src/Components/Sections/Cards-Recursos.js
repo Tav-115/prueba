@@ -18,6 +18,13 @@ const CardsRecursos = () => (
    <a name="Presentaciones"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
       
+      <RecursosCard nombre="Extensión de uso" 
+   subt="Antigripal adyuvantada (26-7-22)"
+   image="https://drive.google.com/uc?export=download&id=1j2Wv0Ba5L7SwgxrcKhL9Rx3qWqQdqvmO" 
+   pages="1"
+   link="https://drive.google.com/file/d/15ECcoP4kcRoO6U6Ag6feOnAgBSYIwQsd/view?usp=sharing"/> 
+            
+
       <RecursosCard nombre="Extensiones Vacunas Covid" 
    subt="Al 26-7-22"
    image="https://drive.google.com/uc?export=download&id=1vMMo4CT3wQa725n1bY5PHPZ_809JoI22" 

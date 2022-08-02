@@ -18,6 +18,8 @@
     display: flex;
     width: 400%;
     margin-left: -100%;
+    
+    
 }
 
 .slider--section{
@@ -86,4 +88,13 @@
   .atento{
     animation: palpi 2s infinite;
     -webkit-animation: palpi 2s infinite;
+}
+
+.box-shadow{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 3px #9ecc3b;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }

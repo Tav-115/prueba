@@ -159,3 +159,15 @@ h2 {
     font-size: 1em;
 }
 
+.fuente-boton {
+    font-size: 0.85rem;
+}
+
+.button{
+    padding: 0.5rem;
+}
+
+.button-center {
+    padding-top: 2rem;
+    padding-left: 0.5rem; 
+}
