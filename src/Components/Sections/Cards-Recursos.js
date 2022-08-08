@@ -18,6 +18,14 @@ const CardsRecursos = () => (
    <a name="Presentaciones"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
       
+      
+   <RecursosCard nombre="Extensiones Pfizer Ped." 
+   subt="3-8-22."
+   image="https://drive.google.com/uc?export=download&id=1QzFYuHWkNZReXF2Q_OzpxQ9k9PNHkyWJ" 
+   pages="1"
+   link="https://docs.google.com/document/d/1XwsWNpszW7QuZuYBIGX2yeUtI2Wg6QTL/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/> 
+
+
       <RecursosCard nombre="Extensión de uso" 
    subt="Antigripal adyuvantada (26-7-22)"
    image="https://drive.google.com/uc?export=download&id=1j2Wv0Ba5L7SwgxrcKhL9Rx3qWqQdqvmO" 
@@ -303,7 +311,15 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Circulares"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
+
+               
+      <RecursosCard nombre="Moderna Pediátrica." 
+      subt="6 m a 2 años."
+      image="https://drive.google.com/uc?export=download&id=1z_u4b1pXlOzb68knjpREJ4myAb4ZB5Gv"
+      pages="3"
+      link="https://drive.google.com/file/d/1rx77OEgbHV_oJAlDpgnYTZn6fRCXBAmL/view?usp=sharing"/>
+       
 
       <RecursosCard nombre="2do Refuerzo" 
    subt="18-04-2022"
