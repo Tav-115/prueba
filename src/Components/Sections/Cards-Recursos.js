@@ -93,6 +93,11 @@ const CardsRecursos = () => (
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Lineamientos"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
+      
+      <RecursosCard nombre="Lineamientos Técnicos." 
+      subt="Sarampion, Rubeola, Paperas y Poliomielitis."
+      image="https://drive.google.com/uc?export=download&id=1OqQFhh42HwJqLuzW7S4TYifmArRYiwrq" 
+      link="https://drive.google.com/file/d/1tlV0r17yFZH4M03GhhS5YCFBK6c7hlY0/view?usp=sharing"/> 
 
       <RecursosCard nombre="(LT) Moderna 6 Meses a 3 años" 
    subt="Refuerzo 3 a 5 años"

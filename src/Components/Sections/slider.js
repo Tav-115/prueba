@@ -4,6 +4,13 @@ const Slider = () => (
      <div className="container-slider">
         <div className="slider " id="slider">
 
+        <div className="slider--section box-shadow">
+                <RecursosCard nombre="Lineamientos Técnicos." 
+                subt="Sarampion, Rubeola, Paperas y Poliomielitis."
+                image="https://drive.google.com/uc?export=download&id=1OqQFhh42HwJqLuzW7S4TYifmArRYiwrq" 
+                link="https://drive.google.com/file/d/1tlV0r17yFZH4M03GhhS5YCFBK6c7hlY0/view?usp=sharing"/> 
+        </div>
+
         <div className="slider--section box-shadow">         
                 <RecursosCard nombre="Moderna Pediátrica." 
                 subt="6 m a 2 años."
@@ -26,16 +33,7 @@ const Slider = () => (
                 pages="1"
                 link="https://drive.google.com/file/d/15ECcoP4kcRoO6U6Ag6feOnAgBSYIwQsd/view?usp=sharing"/> 
             </div>
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Extensiones Vacunas Covid" 
-                subt="Al 26-7-22"
-                image="https://drive.google.com/uc?export=download&id=1vMMo4CT3wQa725n1bY5PHPZ_809JoI22" 
-                pages="5"
-                link="https://drive.google.com/file/d/1X2KNAq_PTS9U890zXXZ5nfpLOs7KuhN8/view?usp=sharing"/> 
-            </div>
-            
-            
-            
+                    
 </div>
 
 </div>
