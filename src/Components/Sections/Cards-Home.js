@@ -37,6 +37,15 @@ const CardsHome = () => (
                   <div className="s-main-center"><a className="button VerdeSaludClaro button--tiny" href="Activ">Actividades PAI</a></div>
                 </div>
               </div>
+              <div className="card oF">
+                <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
+                    <img src="https://drive.google.com/uc?export=download&id=1VkP35CaSoccyYFqjbMjuzquwPefzIbCW" /></div>
+                <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">               
+                  <div className="s-mb-2 s-main-center card__teachers">                 
+                  </div>
+                  <div className="s-main-center"><a className="button VerdeSaludClaro button--tiny" href="Camp">Campaña Nacional de Seguimiento 2022</a></div>
+                </div>
+              </div>
               <div className="card">
                 <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
                     <img src="https://img.freepik.com/foto-gratis/mujer-joven-que-estudia-casa-cursos-linea-o-informacion-gratuita-ella-misma-tomando-notas_155003-34075.jpg"/></div>

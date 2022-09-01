@@ -11,13 +11,14 @@ import Recursos from "./Pages/Recursos"
 import Activ from "./Pages/Activ"
 import Vac from "./Pages/Vacio"
 import Menv from "./Pages/Menv"
-      
+import CampNac from "./Sections/CampNac"
 
 import {
       BrowserRouter as Router,
       Routes,
       Route
     } from "react-router-dom";
+import Campaña from "./Pages/CampañaNac"
 
 
 
@@ -35,6 +36,7 @@ const App = () => (
                   <Route path='/Activ' element={<Activ/>}/>
                   <Route path='/Vac' element={<Vac/>}/>
                   <Route path='/Menv' element={<Menv/>}/>
+                  <Route path='/Camp' element={<Campaña/>}/>
                   
             </Routes>
       </Router>

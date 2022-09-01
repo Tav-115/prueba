@@ -98,3 +98,6 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.oF {object-fit: contain;
+}
