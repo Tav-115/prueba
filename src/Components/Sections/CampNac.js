@@ -7,7 +7,7 @@
         Campaña Nacional de Seguimiento 2022
         </h2>
         
-    <div>
+    
     
     <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
 
@@ -39,7 +39,7 @@
                 pages="1"
                 link="https://drive.google.com/file/d/1_gFaKCHcNXJqyMRxn6fDQkvba_8meDWU/view?usp=sharing"/> 
             
-      </div>
+    
       
     </div>
     </div>

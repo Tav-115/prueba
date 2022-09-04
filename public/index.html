@@ -12,11 +12,10 @@
     <link rel="apple-touch-icon" href="../Icono Pai.jpg" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
- 
+    
     <title>PAI - Programa Ampliado de Inmunizaciones Entre Rios</title>
   </head>
   <body>
-
     <div id="root"></div>
     
   </body>
@@ -38,12 +37,12 @@
     function moveDerecha(){
         let sliderSectionFirst = document.querySelectorAll(".slider--section")[0];
         sliderMov.style.marginLeft = "-200%";
-        sliderMov.style.transition = "all 1s";
+        sliderMov.style.transition = "all 0.3s";
         setTimeout(function(){
             sliderMov.style.transition = "none";
             sliderMov.insertAdjacentElement('beforeend', sliderSectionFirst);
             sliderMov.style.marginLeft = "-100%";
-        }, 1500);
+        }, 300);
         
     }
     
@@ -55,7 +54,7 @@
         let sliderSection = document.querySelectorAll (".slider--section");
         let sliderSectionLast = sliderSection[sliderSection.length-1];
         sliderMov.style.marginLeft = "0";
-        sliderMov.style.transition = "all 1s";
+        sliderMov.style.transition = "all 0.5s";
         setTimeout(function(){
             sliderMov.style.transition = "none";
             sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast);
@@ -71,7 +70,7 @@
     setInterval(function(){
         moveDerecha();
         
-    }, 3000);
+    }, 4000);
     </script>
   <script>
     const BtMenu = document.getElementById("main-menu-toggles");

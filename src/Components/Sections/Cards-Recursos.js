@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import RecursosCard from './Recursos-card';
+import CampNac from "../Sections/CampNac"
+import Covid from "../Sections/covid"
 
 const CardsRecursos = () => (
    <div>
+      
    <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3">
    
    <a className="button light-color " href="#Lineamientos">Lineamientos</a>
@@ -12,12 +15,21 @@ const CardsRecursos = () => (
       <a className="button light-color " href="#Circulares">Circulares</a>
       <a className="button light-color " href="#Notas">Notas/Res.</a>
       <a className="button light-color " href="#Plantillas">Formularios</a>
+      {/* <a className="button light-color " href="#extensiones">Extensiones</a> */}
    </div>
    
+
+  
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-   <a name="Presentaciones"></a>
+   
+   <a name="extensiones"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
-      
+   
+   <RecursosCard nombre="Resumen Vtos c/extensión" 
+   subt="Actualizado 1-9-22"
+   image="https://drive.google.com/uc?export=download&id=1VjJuSvgB3EjhYeafmAQr1KNKF0j3r3jg" 
+   link="https://drive.google.com/file/d/1EvgtV4-u315cfd3SJz6bajx8fzoXZ_pL/view?usp=sharing"/> 
+            
       
    <RecursosCard nombre="Extensiones Pfizer Ped." 
    subt="3-8-22."
@@ -468,6 +480,8 @@ const CardsRecursos = () => (
                       
    </div>
    
+   <CampNac/>
+   <Covid/>
 
 </div>
 )
