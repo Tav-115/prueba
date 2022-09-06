@@ -23,9 +23,15 @@ const CardsRecursos = () => (
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    
    <a name="extensiones"></a> 
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>           
-   
-   <RecursosCard nombre="Resumen Vtos c/extensión" 
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>   
+
+   <RecursosCard nombre="Recopilación Extenciones de Vctos." 
+   subt="Vacunas Covid al 1-9-22 (archivo .rar)"
+   image="https://drive.google.com/uc?export=download&id=1DX8RfK6EiNKP5bmln_rzzc86yaw74mGm" 
+   pages="1"
+   link="https://drive.google.com/file/d/1ZD9ez4IbhydVZUAi2ZKXPECoGjfCcAkf/view?usp=sharing"/> 
+               
+   <RecursosCard nombre="Resumen Vctos c/extensión" 
    subt="Actualizado 1-9-22"
    image="https://drive.google.com/uc?export=download&id=1VjJuSvgB3EjhYeafmAQr1KNKF0j3r3jg" 
    link="https://drive.google.com/file/d/1EvgtV4-u315cfd3SJz6bajx8fzoXZ_pL/view?usp=sharing"/> 

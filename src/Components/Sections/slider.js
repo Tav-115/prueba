@@ -5,7 +5,15 @@ const Slider = () => (
         <div className="slider " id="slider">
 
         <div className="slider--section box-shadow">
-                <RecursosCard nombre="Resumen Vtos c/extensión" 
+                <RecursosCard nombre="Recopilación Extenciones de Vctos." 
+                subt="Vacunas Covid al 1-9-22 (archivo .rar)"
+                image="https://drive.google.com/uc?export=download&id=1DX8RfK6EiNKP5bmln_rzzc86yaw74mGm" 
+                pages="1"
+                link="https://drive.google.com/file/d/1ZD9ez4IbhydVZUAi2ZKXPECoGjfCcAkf/view?usp=sharing"/> 
+            </div>
+
+        <div className="slider--section box-shadow">
+                <RecursosCard nombre="Resumen Vctos c/extensión" 
                 subt="Actualizado 1-9-22"
                 image="https://drive.google.com/uc?export=download&id=1VjJuSvgB3EjhYeafmAQr1KNKF0j3r3jg" 
                 link="https://drive.google.com/file/d/1EvgtV4-u315cfd3SJz6bajx8fzoXZ_pL/view?usp=sharing"/> 
@@ -25,13 +33,7 @@ const Slider = () => (
                 pages="3"
                 link="https://drive.google.com/file/d/1TJ7q2yJ4YqNZSSXN7vzdfJUDD0Av9rmq/view?usp=sharing"/>
         </div> 
-            <div className="slider--section box-shadow">
-                <RecursosCard nombre="Planilla Registro Diario" 
-                subt="Sarampión."
-                image="https://drive.google.com/uc?export=download&id=1XgBlRKw6umfGxKkZn7ARAoUrkuaHD7CS" 
-                pages="1"
-                link="https://drive.google.com/file/d/1YnpNeNVEuqLPBr5HJ2YaZl1DlDXwmV8e/view?usp=sharing"/> 
-            </div>
+            
 
         
                     
