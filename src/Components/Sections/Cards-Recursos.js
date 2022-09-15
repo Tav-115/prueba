@@ -25,6 +25,12 @@ const CardsRecursos = () => (
    <a name="extensiones"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>   
 
+   <RecursosCard nombre="Extención Pfizer" 
+   subt="8-9-22"
+   image="https://drive.google.com/uc?export=download&id=1_TEr1nVpQDDz9bFFGqIw3M9uqoqoIVOd"
+   link="https://drive.google.com/file/d/1vWrWki9fQ-1sjaHy88G39Z8Hfjtpo717/view?usp=sharing"/>
+        
+
    <RecursosCard nombre="Recopilación Extenciones de Vctos." 
    subt="Vacunas Covid al 1-9-22 (archivo .rar)"
    image="https://drive.google.com/uc?export=download&id=1DX8RfK6EiNKP5bmln_rzzc86yaw74mGm" 

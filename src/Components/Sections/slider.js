@@ -4,6 +4,13 @@ const Slider = () => (
      <div className="container-slider">
         <div className="slider " id="slider">
 
+        <div className="slider--section box-shadow">         
+                <RecursosCard nombre="Extención Pfizer" 
+                subt="8-9-22"
+                image="https://drive.google.com/uc?export=download&id=1_TEr1nVpQDDz9bFFGqIw3M9uqoqoIVOd"
+                link="https://drive.google.com/file/d/1vWrWki9fQ-1sjaHy88G39Z8Hfjtpo717/view?usp=sharing"/>
+        </div>
+
         <div className="slider--section box-shadow">
                 <RecursosCard nombre="Recopilación Extenciones de Vctos." 
                 subt="Vacunas Covid al 1-9-22 (archivo .rar)"
@@ -26,13 +33,7 @@ const Slider = () => (
                 link="https://drive.google.com/file/d/1hiarFh26j8yUCgn0Qv3OdWbhFfKEuJka/view?usp=sharing"/> 
         </div>
 
-        <div className="slider--section box-shadow">         
-                <RecursosCard nombre="Formulario MRV 2022" 
-                subt=""
-                image="https://drive.google.com/uc?export=download&id=1-tTUFFjSR1rWZofrJci3i8tlPTj-fH8a"
-                pages="3"
-                link="https://drive.google.com/file/d/1TJ7q2yJ4YqNZSSXN7vzdfJUDD0Av9rmq/view?usp=sharing"/>
-        </div> 
+         
             
 
         
