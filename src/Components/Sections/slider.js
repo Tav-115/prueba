@@ -5,6 +5,13 @@ const Slider = () => (
         <div className="slider " id="slider">
 
         <div className="slider--section box-shadow">
+                <RecursosCard nombre="Instructivo Registro Dosis" 
+                subt="Campaña SRPP 2022"
+                image="https://drive.google.com/uc?export=download&id=1QY2L9NYSo4DloiQ0rxe3IX041b8viRdT" 
+                link="https://drive.google.com/file/d/1wA9B7vmDIRxHC6Ab_pohDrnONEsLSycB/view?usp=sharing"/> 
+        </div>
+
+        <div className="slider--section box-shadow">
                 <RecursosCard nombre="Campaña Vacunación" 
                 subt="6 Imagenes (.Rar)"
                 image="https://drive.google.com/uc?export=download&id=1b20lXr3Nl_zAITEOFttIxjG0VIfbdE5w" 
@@ -26,20 +33,6 @@ const Slider = () => (
                 link="https://drive.google.com/file/d/1ZD9ez4IbhydVZUAi2ZKXPECoGjfCcAkf/view?usp=sharing"/> 
             </div>
 
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Resumen Vctos c/extensión" 
-                subt="Actualizado 1-9-22"
-                image="https://drive.google.com/uc?export=download&id=1VjJuSvgB3EjhYeafmAQr1KNKF0j3r3jg" 
-                link="https://drive.google.com/file/d/1EvgtV4-u315cfd3SJz6bajx8fzoXZ_pL/view?usp=sharing"/> 
-            </div>
-
-        
-
-         
-            
-
-        
-                    
 </div>
 
 </div>

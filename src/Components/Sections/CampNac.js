@@ -11,6 +11,17 @@
     
     <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
 
+    <RecursosCard nombre="Instructivo Registro Dosis" 
+                subt="Campaña SRPP 2022"
+                image="https://drive.google.com/uc?export=download&id=1QY2L9NYSo4DloiQ0rxe3IX041b8viRdT" 
+                link="https://drive.google.com/file/d/1wA9B7vmDIRxHC6Ab_pohDrnONEsLSycB/view?usp=sharing"/>
+
+    <RecursosCard nombre="Campaña Vacunación" 
+                subt="6 Imagenes (.Rar)"
+                image="https://drive.google.com/uc?export=download&id=1b20lXr3Nl_zAITEOFttIxjG0VIfbdE5w" 
+                link="https://drive.google.com/file/d/1m4EYTsq6rTc8HbywXcB-Ju4lgoaXhekj/view?usp=sharing"/> 
+    
+
     <RecursosCard nombre="Afiche" 
                 subt="Para Imprimir"
                 image="https://drive.google.com/uc?export=download&id=1VkP35CaSoccyYFqjbMjuzquwPefzIbCW" 

@@ -239,12 +239,7 @@ const CardsRecursos = () => (
    <a name="Presentaciones"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Presentaciones (PowerPoint)</h2>           
       
-      <RecursosCard nombre="Campaña Vacunación" 
-   subt="6 Imagenes (.Rar)"
-   image="https://drive.google.com/uc?export=download&id=1b20lXr3Nl_zAITEOFttIxjG0VIfbdE5w" 
-   link="https://drive.google.com/file/d/1m4EYTsq6rTc8HbywXcB-Ju4lgoaXhekj/view?usp=sharing"/> 
-   
-      <RecursosCard nombre="Presentación" 
+       <RecursosCard nombre="Presentación" 
    subt="Diapositivas - PowerPoint."
    image="https://drive.google.com/uc?export=download&id=1pcKNVkRkRoLxO10zjQ0valS8fzPGfoiN" 
    pages="16"
