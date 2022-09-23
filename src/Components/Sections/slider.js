@@ -5,7 +5,15 @@ const Slider = () => (
         <div className="slider " id="slider">
 
         <div className="slider--section box-shadow">
-                <RecursosCard nombre="Instructivo Registro Dosis" 
+                <RecursosCard nombre="Carnet de Vacunación" 
+                subt="Campaña SRPP"
+                image="https://drive.google.com/uc?export=download&id=15U1BBDUQt7VosC0ZmAPVmckDS7nc0Unw" 
+                pages="1"
+                link="https://drive.google.com/file/d/1euGzlDFWfiDJ24gJd2ws9Y73aF6FNGpX/view?usp=sharing"/> 
+        </div>
+
+        <div className="slider--section box-shadow">
+                <RecursosCard nombre="Instructivo Registro Dósis" 
                 subt="Campaña SRPP 2022"
                 image="https://drive.google.com/uc?export=download&id=1QY2L9NYSo4DloiQ0rxe3IX041b8viRdT" 
                 link="https://drive.google.com/file/d/1wA9B7vmDIRxHC6Ab_pohDrnONEsLSycB/view?usp=sharing"/> 
@@ -25,13 +33,7 @@ const Slider = () => (
                 link="https://drive.google.com/file/d/1vWrWki9fQ-1sjaHy88G39Z8Hfjtpo717/view?usp=sharing"/>
         </div>
 
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Recopilación Extenciones de Vctos." 
-                subt="Vacunas Covid al 1-9-22 (archivo .rar)"
-                image="https://drive.google.com/uc?export=download&id=1DX8RfK6EiNKP5bmln_rzzc86yaw74mGm" 
-                pages="1"
-                link="https://drive.google.com/file/d/1ZD9ez4IbhydVZUAi2ZKXPECoGjfCcAkf/view?usp=sharing"/> 
-            </div>
+        
 
 </div>
 
