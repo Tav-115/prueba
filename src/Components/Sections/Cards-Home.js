@@ -78,7 +78,7 @@ const CardsHome = () => (
               <div className="card small">
                 <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/iw6QMKwx204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                      </div>
+                </div>
                 <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">               
                   <div className="s-mb-2 s-main-center card__teachers">                 
                   </div>
@@ -93,11 +93,62 @@ const CardsHome = () => (
                 </div>
                 <div className=" s-radius-tr s-radius-tl">
                 <iframe width="100%" height="270" src="https://www.youtube.com/embed/iw6QMKwx204?color=white" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-            </div>
+                </div>
+                {/* Videos lavado de manos */}
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/SZD1PRZ8jng" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/jyfqJRs1ucY" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/SFSk1BR2bPk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/dxjRRPiJfNs" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/aDUPrzBdIkQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
 
             <div className="card small">
                 <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/iw6QMKwx204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div> 
+
+            {/* Videos lavado de manos small */}
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/SZD1PRZ8jng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div> 
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/jyfqJRs1ucY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div> 
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/SFSk1BR2bPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div> 
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/dxjRRPiJfNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div> 
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/aDUPrzBdIkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div> 
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                 </div>
             </div> 
                             
@@ -107,3 +158,4 @@ const CardsHome = () => (
 )
 
 export default CardsHome
+
