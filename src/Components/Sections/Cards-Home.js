@@ -4,11 +4,11 @@ const CardsHome = () => (
 <div  className="ed-grid lg-grid-1">
   <div className="ed-grid lg-grid-2 s-grid-1 gap-1 l-block m-grid-2 row-gap">
               {/* Video Small */}
-                                  <div className="card small">
-                                    <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
-                                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/M80rGk2YDjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                                    </div>
-                                  </div> 
+                  <div className="card small">
+                    <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/M80rGk2YDjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                    </div>
+                  </div> 
               
                                   <div className="card oF">
                 <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
@@ -74,56 +74,14 @@ const CardsHome = () => (
               </div>
 
               {/* Videos */}
+              
 
-              <div className="card small">
+             
+                {/* Videos lavado de manos small */} 
+                <h3 className="small center"> Videos DiCEI </h3>
+                <div className="card small">
                 <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
-                <iframe width="100%" height="200" src="https://www.youtube.com/embed/iw6QMKwx204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                </div>
-                <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">               
-                  <div className="s-mb-2 s-main-center card__teachers">                 
-                  </div>
-                  <div className="s-main-center"><a className="button VerdeSaludClaro button--tiny" href="https://youtu.be/iw6QMKwx204">Ver en Youtube</a></div>
-                </div>
-              </div> 
-                
-              </div>
-            <div className="medio ed-grid s-grid-2 lg-grid-2 xl-grid-2">
-                <div className=" s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/M80rGk2YDjI" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                </div>
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/iw6QMKwx204?color=white" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-                {/* Videos lavado de manos */}
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/SZD1PRZ8jng" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/jyfqJRs1ucY" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/SFSk1BR2bPk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/dxjRRPiJfNs" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/aDUPrzBdIkQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-                <div className=" s-radius-tr s-radius-tl">
-                <iframe width="100%" height="270" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
-                </div>
-
-            <div className="card small">
-                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
-                <iframe width="100%" height="200" src="https://www.youtube.com/embed/iw6QMKwx204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                </div>
-            </div> 
-
-            {/* Videos lavado de manos small */}
-            <div className="card small">
-                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
-                <iframe width="100%" height="200" src="https://www.youtube.com/embed/SZD1PRZ8jng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/SZD1PRZ8jng" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                 </div>
             </div> 
             <div className="card small">
@@ -151,6 +109,51 @@ const CardsHome = () => (
                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                 </div>
             </div> 
+
+              <h3 className="small center"> Feliz Día </h3>
+            <div className="card small">
+                <div className="img-container m-cen s-ratio-16-9 s-radius-tr s-radius-tl">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/iw6QMKwx204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+                </div> 
+
+              </div>
+
+              <h3 className="medio center"> Vida Útil de las Vacunas</h3>
+            <div className="medio ed-grid">
+                <div className=" s-radius-tl center">
+                <iframe width="60%" height="270" src="https://www.youtube.com/embed/M80rGk2YDjI" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div>
+            
+            <h3 className="medio center"> Videos DiCEI </h3>
+            <div className="medio ed-grid s-grid-2 lg-grid-2 xl-grid-2">
+                {/* Videos lavado de manos */}
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/SZD1PRZ8jng" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/jyfqJRs1ucY" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/SFSk1BR2bPk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/dxjRRPiJfNs" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/aDUPrzBdIkQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="100%" height="270" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+              </div>
+                <h3 className="medio center"> Feliz Día!!</h3>
+                <div className="medio ed-grid">
+                <div className=" s-radius-tr s-radius-tl center">
+                <iframe width="60%" height="270" src="https://www.youtube.com/embed/iw6QMKwx204?color=white" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+
                             
   </div>
 </div>
