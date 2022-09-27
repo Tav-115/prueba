@@ -5,24 +5,26 @@ import Covid from "../Sections/covid"
 
 const CardsRecursos = () => (
    <div>
+  <div className="ed-grid caja-fija">   
+      <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3 fijo">
       
-   <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3">
-   
-   <a className="button light-color " href="#Lineamientos">Lineamientos</a>
-      <a className="button light-color " href="#Memos">Memos</a>
-      <a className="button light-color s-cols-2 m-cols-1"href="#Presentaciones">Presentaciones (PwP)</a>
-      <a className="button light-color " href="#Manuales">Manuales</a>
-      <a className="button light-color " href="#Circulares">Circulares</a>
-      <a className="button light-color " href="#Notas">Notas/Res.</a>
-      <a className="button light-color " href="#Plantillas">Formularios</a>
-      {/* <a className="button light-color " href="#extensiones">Extensiones</a> */}
-   </div>
-   
+         <a className="button light-color " href="#Lineamientos">Lineamientos</a>
+         <a className="button light-color " href="#Memos">Memos</a>
+         <a className="button light-color " href="#extensiones">Extensiones</a>
+         <a className="button light-color s-cols-1 m-cols-1"href="#Presentaciones">Presentaciones</a>
+         <a className="button light-color " href="#Manuales">Manuales</a>
+         <a className="button light-color " href="#Circulares">Circulares</a>
+         <a className="button light-color " href="#Notas">Notas/Res.</a>
+         <a className="button light-color " href="#Plantillas">Formularios</a>
+         
+      </div>
+   </div> 
+  
 
   
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    
-   <a name="extensiones"></a> 
+   <a name="extensiones" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>   
 
    <RecursosCard nombre="Extención Pfizer" 
@@ -115,7 +117,7 @@ const CardsRecursos = () => (
    </div>
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-      <a name="Lineamientos"></a> 
+      <a name="Lineamientos" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
       
       <RecursosCard nombre="Lineamientos Técnicos." 
@@ -201,7 +203,7 @@ const CardsRecursos = () => (
 
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-      <a name="Memos"></a> 
+      <a name="Memos" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'>Memos</h2>           
 
       <RecursosCard nombre="Memorándum - Covid" 
@@ -236,7 +238,7 @@ const CardsRecursos = () => (
 
    </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-   <a name="Presentaciones"></a>
+   <a name="Presentaciones" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Presentaciones (PowerPoint)</h2>           
       
        <RecursosCard nombre="Presentación" 
@@ -248,7 +250,7 @@ const CardsRecursos = () => (
    </div>
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-   <a name="Manuales"></a>
+   <a name="Manuales" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
 
       <RecursosCard nombre="Sociedad Arg. de Pediatría." 
@@ -339,7 +341,7 @@ const CardsRecursos = () => (
 
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-      <a name="Circulares"></a>
+      <a name="Circulares" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
 
                
@@ -391,7 +393,7 @@ const CardsRecursos = () => (
                    
    </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-   <a name="Notas"></a>
+   <a name="Notas" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Notas y resoluciones </h2>  
 
       <RecursosCard nombre="Anmat- Antigripal" 
@@ -424,7 +426,7 @@ const CardsRecursos = () => (
    </div>
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
-   <a name="Plantillas"></a>
+   <a name="Plantillas" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Formularios y Planillas </h2>           
 
       <RecursosCard nombre="Nomivac" 

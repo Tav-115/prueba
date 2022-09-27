@@ -76,15 +76,13 @@ h2 {
 
 
 .show {
-    left: 65%;
-    
+    z-index: 2000;
+    left: 65%;    
     background-color: #64922f;
     position: relative; 
     border-radius: 10px;
     box-shadow: -4px -3px 3px black;
     opacity: 0.8;
-    
-    
   }
 
 .showColr {    
@@ -99,6 +97,7 @@ h2 {
     width: auto;
     overflow-x: hidden;
     padding: auto;
+    
   }
 
 .NavR{
@@ -110,15 +109,11 @@ h2 {
     height: auto;
 
     font-weight: 900;
-    
-
 }
 
 .NavR:hover {
       background-color: #9ecc3b;
-      text-shadow: 1px 1px black;
-      
-      
+      text-shadow: 1px 1px black;    
   }
 
 .link {
@@ -142,12 +137,15 @@ h2 {
 
 .button.light-color{
     margin-top: 5px;
+    border: 2px solid #9ecc3b;
 
 }
 
 .button.light-color:hover {
     background-color: #666;
     color: aliceblue;
+    border-color: #64922f;
+    outline: 3px solid #64922f;
     }
 
 .fix{
