@@ -4,6 +4,13 @@ const Slider = () => (
      <div className="container-slider">
         <div className="slider " id="slider">
 
+        <div className="slider--section box-shadow">         
+                <RecursosCard nombre="Algoritmo EFE" 
+                subt="11-10-22"
+                image="https://drive.google.com/uc?export=download&id=1yFnY-0g-Rupmgc3JJNu0y1YVS6cnMtS9"
+                link="https://drive.google.com/file/d/1pzem1i1tveAnycsj9IzvvzbU5YO1oDyk/view?usp=sharing"/>
+        </div>
+
         <div className="slider--section box-shadow">
                 <RecursosCard nombre="Carnet de Vacunación" 
                 subt="Campaña SRPP"
@@ -26,15 +33,7 @@ const Slider = () => (
                 link="https://drive.google.com/file/d/1m4EYTsq6rTc8HbywXcB-Ju4lgoaXhekj/view?usp=sharing"/> 
         </div>
 
-        <div className="slider--section box-shadow">         
-                <RecursosCard nombre="Extención Pfizer" 
-                subt="8-9-22"
-                image="https://drive.google.com/uc?export=download&id=1_TEr1nVpQDDz9bFFGqIw3M9uqoqoIVOd"
-                link="https://drive.google.com/file/d/1vWrWki9fQ-1sjaHy88G39Z8Hfjtpo717/view?usp=sharing"/>
-        </div>
-
         
-
 </div>
 
 </div>

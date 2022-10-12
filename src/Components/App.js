@@ -11,14 +11,14 @@ import Recursos from "./Pages/Recursos"
 import Activ from "./Pages/Activ"
 import Vac from "./Pages/Vacio"
 import Menv from "./Pages/Menv"
-import CampNac from "./Sections/CampNac"
+import Campaña from "./Pages/CampañaNac"
 
 import {
       BrowserRouter as Router,
       Routes,
       Route
     } from "react-router-dom";
-import Campaña from "./Pages/CampañaNac"
+
 
 
 

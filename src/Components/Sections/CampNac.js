@@ -11,6 +11,11 @@
     
     <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
 
+    <RecursosCard nombre="Algoritmo EFE" 
+                subt="11-10-22"
+                image="https://drive.google.com/uc?export=download&id=1yFnY-0g-Rupmgc3JJNu0y1YVS6cnMtS9"
+                link="https://drive.google.com/file/d/1pzem1i1tveAnycsj9IzvvzbU5YO1oDyk/view?usp=sharing"/>
+
     <RecursosCard nombre="Carnet de Vacunación" 
                 subt="Campaña SRPP"
                 image="https://drive.google.com/uc?export=download&id=15U1BBDUQt7VosC0ZmAPVmckDS7nc0Unw" 
