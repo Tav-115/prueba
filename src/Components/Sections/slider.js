@@ -4,6 +4,20 @@ const Slider = () => (
      <div className="container-slider">
         <div className="slider " id="slider">
 
+        <div className="slider--section box-shadow">
+                <RecursosCard nombre="Lineamientos Técnicos" 
+                subt="3er Refuerzo Covid"
+                image="https://drive.google.com/uc?export=download&id=1_obQxbZmGyH9InceutsGdYD0mn_bGFdQ" 
+                link="https://drive.google.com/file/d/1st9JiEg_uSMq_ACV1J3kwciyh8jakCYz/view?usp=sharing"/> 
+        </div>
+
+        <div className="slider--section box-shadow">
+                <RecursosCard nombre="Circular 3er Refuerzo" 
+                subt="Covid"
+                image="https://drive.google.com/uc?export=download&id=1uJKAgmSVz4DMQ1bxvgTdMacD8xQs67E7" 
+                link="https://drive.google.com/file/d/1UIX2fH4AH7gg20Sk0ZnYHLQoeMF90S7T/view?usp=sharing"/> 
+        </div>
+
         <div className="slider--section box-shadow">         
                 <RecursosCard nombre="Algoritmo EFE" 
                 subt="11-10-22"
@@ -19,19 +33,6 @@ const Slider = () => (
                 link="https://drive.google.com/file/d/1euGzlDFWfiDJ24gJd2ws9Y73aF6FNGpX/view?usp=sharing"/> 
         </div>
 
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Instructivo Registro Dósis" 
-                subt="Campaña SRPP 2022"
-                image="https://drive.google.com/uc?export=download&id=1QY2L9NYSo4DloiQ0rxe3IX041b8viRdT" 
-                link="https://drive.google.com/file/d/1wA9B7vmDIRxHC6Ab_pohDrnONEsLSycB/view?usp=sharing"/> 
-        </div>
-
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Campaña Vacunación" 
-                subt="6 Imagenes (.Rar)"
-                image="https://drive.google.com/uc?export=download&id=1b20lXr3Nl_zAITEOFttIxjG0VIfbdE5w" 
-                link="https://drive.google.com/file/d/1m4EYTsq6rTc8HbywXcB-Ju4lgoaXhekj/view?usp=sharing"/> 
-        </div>
 
         
 </div>
