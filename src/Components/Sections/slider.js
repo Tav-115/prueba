@@ -5,6 +5,14 @@ const Slider = () => (
         <div className="slider " id="slider">
 
         <div className="slider--section box-shadow">
+                <RecursosCard nombre="Extensión de Campáña" 
+                subt="Campaña SRPP"
+                image="https://drive.google.com/uc?export=download&id=1S_OnS407CckvaPO1enYAmSNlShnNDV-e" 
+                link="https://drive.google.com/file/d/1XfaUqdJgXfIxRH9cHJR-yM1CLZsHWpWY/view?usp=sharing"/> 
+        </div>
+
+
+        <div className="slider--section box-shadow">
                 <RecursosCard nombre="Lineamientos Técnicos" 
                 subt="3er Refuerzo Covid"
                 image="https://drive.google.com/uc?export=download&id=1_obQxbZmGyH9InceutsGdYD0mn_bGFdQ" 
@@ -24,15 +32,6 @@ const Slider = () => (
                 image="https://drive.google.com/uc?export=download&id=1yFnY-0g-Rupmgc3JJNu0y1YVS6cnMtS9"
                 link="https://drive.google.com/file/d/1pzem1i1tveAnycsj9IzvvzbU5YO1oDyk/view?usp=sharing"/>
         </div>
-
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Carnet de Vacunación" 
-                subt="Campaña SRPP"
-                image="https://drive.google.com/uc?export=download&id=15U1BBDUQt7VosC0ZmAPVmckDS7nc0Unw" 
-                pages="1"
-                link="https://drive.google.com/file/d/1euGzlDFWfiDJ24gJd2ws9Y73aF6FNGpX/view?usp=sharing"/> 
-        </div>
-
 
         
 </div>

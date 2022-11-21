@@ -11,6 +11,21 @@
     
     <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
 
+    <RecursosCard nombre="Extensión de Campáña" 
+                subt="Campaña SRPP"
+                image="https://drive.google.com/uc?export=download&id=1S_OnS407CckvaPO1enYAmSNlShnNDV-e" 
+                link="https://drive.google.com/file/d/1XfaUqdJgXfIxRH9cHJR-yM1CLZsHWpWY/view?usp=sharing"/>
+
+    <RecursosCard nombre="Lineamientos Técnicos" 
+                subt="3er Refuerzo Covid"
+                image="https://drive.google.com/uc?export=download&id=1_obQxbZmGyH9InceutsGdYD0mn_bGFdQ" 
+                link="https://drive.google.com/file/d/1st9JiEg_uSMq_ACV1J3kwciyh8jakCYz/view?usp=sharing"/>
+
+    <RecursosCard nombre="Circular 3er Refuerzo" 
+                subt="Covid"
+                image="https://drive.google.com/uc?export=download&id=1uJKAgmSVz4DMQ1bxvgTdMacD8xQs67E7" 
+                link="https://drive.google.com/file/d/1UIX2fH4AH7gg20Sk0ZnYHLQoeMF90S7T/view?usp=sharing"/>
+
     <RecursosCard nombre="Algoritmo EFE" 
                 subt="11-10-22"
                 image="https://drive.google.com/uc?export=download&id=1yFnY-0g-Rupmgc3JJNu0y1YVS6cnMtS9"
