@@ -5,7 +5,6 @@ import CardsHome from "../Sections/Cards-Home"
 const Home = () => (
     <>
       <Banner/>
-      
       <CardsHome/>
     </>
     

@@ -104,17 +104,18 @@
 
 /* Esto es para el menu de RECURSOS */
 .fijo{
-    
+    width: 60%;
     position: fixed;
     z-index: 10;
+    max-width: 1200px !important;
     
 }
 
 .caja-fija{
     height: 8rem;
     
+    
 }
-
 a.myanchor {
     display: block;
        position: relative;

@@ -7,7 +7,7 @@ const CardsRecursos = () => (
    <div>
   <div className="ed-grid caja-fija">   
       <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3 fijo">
-      
+
          <a className="button light-color " href="#Lineamientos">Lineamientos</a>
          <a className="button light-color " href="#Memos">Memos</a>
          <a className="button light-color " href="#extensiones">Extensiones</a>
@@ -21,7 +21,7 @@ const CardsRecursos = () => (
    </div> 
   
 
-  
+  <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6 Espacio"> </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    
    <a name="extensiones" className="myanchor"></a> 
